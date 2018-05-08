@@ -1,12 +1,7 @@
-
-export default () => (
+export default ({message}) => (
   <div className="hero">
     <img src="/static/logo.svg" className="hero__logo" />
-    <h1 className="hero__heading">
-      창작자와 독자 중심의<br />
-      신뢰할 수 있는<br />
-      웹툰, 웹소설 생태계
-    </h1>
+    <h1 className="hero__heading">{message}</h1>
 
     <style jsx>{`
       .hero {
@@ -23,6 +18,7 @@ export default () => (
 
       @media (max-width: 768px) {
         .hero {
+          padding-top: 36px;
           height: 500px;
         }
         .hero__heading {

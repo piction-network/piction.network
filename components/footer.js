@@ -1,6 +1,6 @@
-export default () => (
+export default ({ contact }) => (
   <footer>
-    <h3 className="footer__heading">문의</h3>
+    <h3 className="footer__heading">{contact}</h3>
 
     <div className="footer__contact">
       <a href="mailto:contact@piction.network">contact@piction.network</a>

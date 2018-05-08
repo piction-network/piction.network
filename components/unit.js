@@ -13,6 +13,7 @@ export default () => (
 
       .wrapper {
         position: relative;
+        z-index: -5;
       }
       .circle {
         position: absolute;

@@ -1,0 +1,21 @@
+{
+  "selected": "English",
+  "hero": "Blockchain based paid digital contents ecosystem for creators and community",
+  "for_creator": {
+    "title": "Free your creativity",
+    "body": "We challenge centralized power of the traditional digital contents distribution system. Creator owns full right for their work, how you sell, how you distribute. Piction will give power back to creators."
+  },
+  "blockchain": {
+    "title": "Without intermediaries",
+    "body": "Piction incorporates peer-to-peer blockchain based network. We can forget about the centralized models of content distribution whose intermediaries set huge fees that make the work of the authors more expensive. Authors now can freely set price of their work without intermediary and get settled more. Anyone can buy better deal."
+  },
+  "community_driven": {
+    "title": "Build by community",
+    "body": "Creation needs money. Freely pitch your creativity to community and get raised by community. Anyone in the piction network can invest creator’s works by PoW without restriction. Boost your favorite artists and author and get rewarded when their works monetized by smart contract."
+  },
+  "powered_by": {
+    "title": "Powered by Battle Entertainment",
+    "body": "Piction is operated by Battlen entertainment, who runs digital content IP business in South Korea and China. We will build Piction community with experiences and know-hows"
+  },
+  "contact": "Contact"
+}

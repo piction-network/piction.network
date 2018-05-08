@@ -9,6 +9,7 @@ export default () => (
         position: absolute;
         width: 100%;
         height: 790px;
+        z-index: -20;
       }
       .sparkles__left {
         top: 291px;
