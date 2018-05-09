@@ -41,7 +41,7 @@ export default ({ locale }) => (
         <h2>{ locale.community_driven.title }</h2>
         <p>{ locale.community_driven.body }</p>
       </div>
-      <img src="/static/fair.svg" />
+      <img src="/static/investment.svg" />
     </section>
 
     <section id="powered-by">
@@ -96,6 +96,9 @@ export default ({ locale }) => (
           margin-top: 34px;
         }
         section#blockchain {
+          flex-direction: column;
+        }
+        section#community-driven {
           flex-direction: column;
         }
       }
