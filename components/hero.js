@@ -14,6 +14,7 @@ export default ({message}) => (
         max-width: 600px;
         line-height: 1.4;
         font-weight: bold;
+        word-break: break-word;
       }
 
       @media (max-width: 768px) {

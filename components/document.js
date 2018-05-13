@@ -59,7 +59,9 @@ export default ({ locale }) => (
 
     <style jsx>{`
       .locale {
-        float: right;
+        position: absolute;
+        padding-right: inherit;
+        right: 0;
         margin-top: 50px;
       }
       section {
@@ -83,6 +85,9 @@ export default ({ locale }) => (
         color: #0045e3;
         font-size: 32px;
         font-weight: bold;
+      }
+      .section__listing span {
+        font-family: "Poppins", 'Apple SD Gothic Neo', "Nanum Gothic", sans-serif;
       }
       section#for-creator {
         margin-top: 30px;
