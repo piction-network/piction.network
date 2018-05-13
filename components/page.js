@@ -3,9 +3,9 @@ import Background from "../components/background";
 import Unit from "../components/unit";
 import Sparkles from "../components/sparkles";
 
-export default ({ children }) => (
+export default ({ locale, children }) => (
   <div className="main">
-    <Meta />
+    <Meta locale={locale} />
 
     <div className="page">
       <Sparkles />

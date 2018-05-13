@@ -6,7 +6,7 @@ import Unit from "./unit";
 import Dropdown from "./dropdown";
 
 export default ({ locale }) => (
-  <Page>
+  <Page locale={locale}>
     <div className="locale">
       <Dropdown selected={locale.selected} />
     </div>
