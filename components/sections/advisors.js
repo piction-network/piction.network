@@ -27,13 +27,33 @@ const Advisor = ({name, bio, photo}) => (
       font-size: 22px;
       margin: 0.25em 0;
     }
+    .advisor__bio {
+      color: #444444;
+    }
     .advisor__photo img {
       line-height: 0;
+      margin: 0 auto;
       border-radius: 50%;
       width: 164px;
       height: 164px;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+      filter: grayscale(100%);
     }
+
+    @media (max-width: 640px) {
+      .advisor {
+        flex-direction: column;
+        text-align: center;
+      }
+      .advisor__info {
+        margin-left: 0;
+      }
+      .advisor__photo img {
+        width: 130px;
+        height: 130px;
+      }
+    }
+
     `}</style>
   </div>
 )

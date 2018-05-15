@@ -78,6 +78,17 @@
       }
     },
     {
+      "name": "Younggon Jin",
+      "title": "Lead Product Manager",
+      "photo": "/static/members/ygjin.jpg",
+      "career": {
+        "__html": "Product Manger at CJ E&M, NEOWIZ, Wizard Works<br>Hanyang Univ. Journalism and mass communcation"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/younggon-jin/"
+      }
+    },
+    {
       "name": "Dongmyung Byun",
       "title": "Software Engineer",
       "photo": "/static/members/dmbyun.jpg",
@@ -147,17 +158,6 @@
       "links": {
         "linkedin": "",
         "github": "https://github.com/doh98"
-      }
-    },
-    {
-      "name": "Younggon Jin",
-      "title": "Lead Product Manager",
-      "photo": "/static/members/ygjin.jpg",
-      "career": {
-        "__html": "Product Manger at CJ E&M, NEOWIZ, Wizard Works<br>Hanyang Univ. Journalism and mass communcation"
-      },
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/younggon-jin/"
       }
     },
     {

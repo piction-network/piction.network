@@ -9,7 +9,6 @@ const Member = ({member}) => (
     <small className="member__title">{member.title}</small>
     <p className="member__career" dangerouslySetInnerHTML={member.career}/>
     <div className="member__links">
-
     </div>
     <style jsx>{`
       .member {
@@ -24,16 +23,17 @@ const Member = ({member}) => (
         filter: grayscale(100%);
       }
       .member__name {
-        font-size: 20px;
-        margin: 0;
+        font-size: 18px;
+        margin-top: 0.25em;
+        margin-bottom: 0.1em;
       }
       .member__title {
-        font-size: 14px;
+        font-size: 12px;
         color: #9b9b9b;
       }
       .member__career {
         font-size: 12px;
-        color: #333333;
+        color: #707070;
       }
     `}</style>
   </div>
@@ -64,12 +64,43 @@ export default class Teams extends React.Component {
     });
 
     return (
-      <section id="teams">
+      <section id="teams" className="teams">
         <SectionHeading>Teams</SectionHeading>
         <Row>
           { list }
         </Row>
-        <button onClick={this.expandTeams}>Toggle</button>
+        <div className="teams__collapse">
+          <div className="teams__divider" />
+          <button onClick={this.expandTeams}>{ this.state.collapsed ? "See more" : "See less" }</button>
+        </div>
+        <style jsx>{`
+
+        .teams__collapse {
+          text-align: center;
+          position: relative;
+        }
+        .teams__divider {
+          width: 100%;
+          margin: 0 auto;
+          border-top: 1px solid #0045e3;
+          position: absolute;
+          top: 1.8em;
+          z-index: -1;
+        }
+        .teams__collapse button {
+          appearance: none;
+          border:none;
+          cursor: pointer;
+          color: #0045e3;
+          font-size: 20px;
+          font-weight: bold;
+          background-color: white;
+          padding: 1em;
+        }
+        .teams__collapse button:focus {
+          outline: none;
+        }
+        `}</style>
       </section>
     )
   }

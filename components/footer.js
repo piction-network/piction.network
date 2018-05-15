@@ -1,10 +1,11 @@
+import SectionHeading from "./SectionHeading";
+
 export default ({ contact }) => (
   <footer>
-    <h3 className="footer__heading">{contact}</h3>
+    <SectionHeading>{contact}</SectionHeading>
 
     <div className="footer__contact">
       <ul>
-        <li><a href="https://medium.com/piction" target="_blank">Medium</a></li>
         <li><a href="https://t.me/piction_kr" target="_blank">Telegram</a></li>
         <li><a href="https://open.kakao.com/o/gyVQbDM" target="_blank">Kakaotalk</a></li>
         <li><a href="mailto:contact@piction.network">contact@piction.network</a></li>
@@ -18,6 +19,15 @@ export default ({ contact }) => (
       footer {
         text-align: center;
         padding-bottom: 20px;
+        background-image: url("/static/img-background.png");
+        background-repeat: no-repeat;
+        background-position-x: -400px;
+      }
+
+      @media (max-width: 768px) {
+        footer {
+          background-position-x: -600px;
+        }
       }
 
       footer h3 {
@@ -37,6 +47,15 @@ export default ({ contact }) => (
 
       .footer__contact {
         margin-bottom: 120px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li + li {
+        margin-top: 1em;
       }
 
       .footer__copyright {

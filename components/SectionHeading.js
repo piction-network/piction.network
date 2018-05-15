@@ -8,14 +8,15 @@ export default ({children}) => (
         margin-bottom: 2em;
       }
       h2 span {
-        border-bottom: 4px solid #444;
+        border-bottom: 6px solid #0045e3;
+        padding-bottom: 4px;
       }
       @media (max-width: 640px) {
         h2 {
           font-size: 28px;
         }
         h2 span {
-          border-bottom: 2px solid #444;
+          border-bottom: 2px solid #0045e3;
         }
       }
     `}</style>

@@ -2,30 +2,30 @@
   "advisors": [
     {
       "name": "Inha Park",
-      "photo": "https://robohash.org/박인하",
+      "photo": "/static/advisors/ihpark.jpg",
       "bio": {
         "__html": "Member of board, The Korea Cartoonist Association<br>Professor, School of Mahwa Contents, ChungKang College of Cultural Industries"
       }
     },
     {
       "name": "Shen Rong",
-      "photo": "https://robohash.org/Shen Rong 沈荣",
+      "photo": "/static/advisors/shenrong.jpg",
       "bio": {
-        "__html": ""
+        "__html": "Member of the committee, China Literature and Art Critics Association<br>Chairman, China Web Literature Writer's Village<br>Vice Chairman, Zhejiang Sheng Literature Creation Committee<br>Vice Chairman, Zhejiang Sheng Web Literature Writer Association"
       }
     },
     {
       "name": "Ina Jang",
-      "photo": "https://robohash.org/박인하",
+      "photo": "/static/advisors/iajang.jpg",
       "bio": {
-        "__html": "(Current) CEO, Smilegate Entertainment<br>(Current) CEO, Smilegate Megaport<br>(Current) Board Member, Smilegate Group"
+        "__html": "CEO, Smilegate Entertainment<br>CEO, Smilegate Megaport"
       }
     },
     {
       "name": "Seunghwan Yeo",
       "photo": "/static/advisors/shyeo.jpg",
       "bio": {
-        "__html": "(Current) CEO, Smilegate Entertainment<br>(Current) CEO, Smilegate Megaport<br>(Current) Board Member, Smilegate Group"
+        "__html": "Director of Technical Support, Smilegate Holdings<br>(Former) Techical Support for Blockchain Project, Smilegate "
       }
     }
   ]

@@ -20,11 +20,6 @@ export default ({ locale }) => (
       <Hero message={locale.hero} />
 
       <Introduction locale={locale} />
-
-      <Advisors />
-
-      <Teams />
-
       <style jsx>{`
         .locale {
           position: absolute;
@@ -34,6 +29,19 @@ export default ({ locale }) => (
         }
       `}</style>
     </Page>
+    <div className="peoples page">
+      <Advisors />
+
+      <Teams />
+      <style jsx>{`
+        .peoples {
+          background-image: url("/static/img-background-platonic.jpg");
+          background-repeat: no-repeat;
+          background-position: right;
+          padding-bottom: 2em;
+        }
+      `}</style>
+    </div>
     <Whitepapers />
 
     <Footer contact={locale.contact} />
