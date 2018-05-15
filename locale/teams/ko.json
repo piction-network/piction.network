@@ -1,0 +1,256 @@
+{
+  "teams": [
+    {
+      "name": "Fred Bae",
+      "title": "Chief Executive Officer & Founder",
+      "photo": "/static/members/fred.png",
+      "career": {
+        "__html": "Business Development Director at Smilegate West<br>Data Analyst at Nexon America<br>Game economy architector at Nexon Korea<br>Seoul National Univ. Business Administration"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/frbae/"
+      }
+    },
+    {
+      "name": "Jiwoong Heo",
+      "title": "Chief Technical Officer",
+      "photo": "/static/members/jwheo.png",
+      "career": {
+        "__html": "Technical lead at SELab<br>Seoul National Univ. Physics"
+      },
+      "links": {
+        "github": "https://github.com/jiwoong",
+        "linkedin": "https://www.linkedin.com/in/jiwoongheo/"
+      }
+    },
+    {
+      "name": "Zhaoyan Jin",
+      "title": "Chief Excutive Officer at Xinwusoft (Chinese Subsidiary)",
+      "photo": "/static/members/wendyjin.png",
+      "career": {
+        "__html": "CEO at Moyou Games & Mobile Factory<br>Chief of Business Development at Shanghai Posts & Telecommunications Technology<br>University of Shanghai for Science and Technology"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Jenny Yoon",
+      "title": "Chief Strategy Officer / Lawyer",
+      "photo": "/static/members/jennyyoon.png",
+      "career": {
+        "__html": "Law firm “We&Partners”, Founding partner attorney at Law<br>National assembly the State Affairs Committee, Secretary<br>Zhonglum W&D Law firm (Beijing, China)<br>SK Networks<br>LG Electronics"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Jongmok Lee",
+      "title": "Chief Content Officer",
+      "photo": "/static/members/jmlee.jpg",
+      "career": {
+        "__html": "A vice-president, Comica Entertainment<br>Lecture, Hong-Ik Univ. Aniamtion<br>Team Leader, Nexon Korea / Project : FIFA Online 3, Kartrider, Crazyarcade etc..<br>Leader of the part, Neople(A Nexon Company) / Project : Dungeon & Fighter, Cyphers<br>Hong-Ik Univ. Graduate School, Animation"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/jongmok-lee-0b6840a9/"
+      }
+    },
+    {
+      "name": "Seungyun Bae",
+      "title": "Chief Operating Officer",
+      "photo": "/static/members/sybae.jpg",
+      "career": {
+        "__html": "English Teacher, Gwangju Girls High School<br>Chosun Univ. English Education"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/seungyun-bae-2ba7a3164/"
+      }
+    },
+    {
+      "name": "Sungki Kwon",
+      "title": "Lead Software Engineer",
+      "photo": "/static/members/skkwon.jpg",
+      "career": {
+        "__html": "Project Leader at Zeein Studio, ITVMG"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/sungkikwon/",
+        "github": "https://github.com/skkwon80"
+      }
+    },
+    {
+      "name": "Dongmyung Byun",
+      "title": "Software Engineer",
+      "photo": "/static/members/dmbyun.jpg",
+      "career": {
+        "__html": "Backend Engineer at Twolinecode(Partner of Samsung Smart TV)<br>Android Developer at WRG(Samsung Android Native Camera App) with 8 years of Android experience<br>Gyeongnam Geochang Univ. Computer Information System"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/dongmyung-byun-a357a4164/",
+        "github": "https://github.com/dmbyun"
+      }
+    },
+    {
+      "name": "Junghoon Seo",
+      "title": "Software Engineer",
+      "photo": "/static/members/jhseo.jpg",
+      "career": {
+        "__html": "Project Leader at Twolinecode, WRG, Neona<br>Korea National Open Univ. Computer Science"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/junghoonseo/",
+        "github": "https://github.com/jhseo"
+      }
+    },
+    {
+      "name": "Chulsu Kim",
+      "title": "Data Engineer",
+      "photo": "/static/members/cskim.jpg",
+      "career": {
+        "__html": "Data Engineer at Interactivy<br>Backend Engineer at Twolinecode, WRG<br>Web Developer at CMSoft"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/charlskim",
+        "github": "https://github.com/charlskim"
+      }
+    },
+    {
+      "name": "Yongsik Kim",
+      "title": "Backend Engineer",
+      "photo": "/static/members/yskim.jpg",
+      "career": {
+        "__html": "Developer at Iumsocius"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/yongsik-kim-a8186485/",
+        "github": "https://github.com/KJambo"
+      }
+    },
+    {
+      "name": "Seongwon Bang",
+      "title": "Software Engineer",
+      "photo": "/static/members/swbang.jpg",
+      "career": {
+        "__html": "Android developer, Lab6k<br>Seoul National Univ. Computer Science Engineering"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/makesource/",
+        "github": "https://github.com/makesource"
+      }
+    },
+    {
+      "name": "Dohyun Ahn",
+      "title": "Software Engineer",
+      "photo": "/static/members/dhahn.jpg",
+      "career": {
+        "__html": ""
+      },
+      "links": {
+        "linkedin": "",
+        "github": "https://github.com/doh98"
+      }
+    },
+    {
+      "name": "Younggon Jin",
+      "title": "Lead Product Manager",
+      "photo": "/static/members/ygjin.jpg",
+      "career": {
+        "__html": "Product Manger at CJ E&M, NEOWIZ, Wizard Works<br>Hanyang Univ. Journalism and mass communcation"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/younggon-jin/"
+      }
+    },
+    {
+      "name": "Rakyoung Min",
+      "title": "Product Manager",
+      "photo": "/static/members/rkmin.jpg",
+      "career": {
+        "__html": "Myongji Univ. Industrial Design"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Junhyuk Park",
+      "title": "Operation Manager",
+      "photo": "/static/members/jhpark.jpg",
+      "career": {
+        "__html": "Software Engineer at Zeein Studio, ITVMG"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Namjoon Lee",
+      "title": "Product Designer",
+      "photo": "/static/members/njlee.jpg",
+      "career": {
+        "__html": "Sookmyung Women's Univ. Department of visual & media design / Department of public relations & advertising"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Kwangho Lee",
+      "title": "Lead Content Producer",
+      "photo": "/static/members/khlee.png",
+      "career": {
+        "__html": "Team Manager at JaedamMedia<br>Movie Team Manager at Gretech<br>Kaywon art Univ. multimedia design"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/a-crazytiger-lee-4a2346132/"
+      }
+    },
+    {
+      "name": "Seolhee Lee",
+      "title": "Content Project Manager",
+      "photo": "/static/members/shlee.jpg",
+      "career": {
+        "__html": "Project Manager at COMICA ent.<br>Content Manager at Melon, Loen ent.<br>Seoul Art College. Department of practical music"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/seolhee-lee-115785164/"
+      }
+    },
+    {
+      "name": "Seule Koo",
+      "title": "Content Producer",
+      "photo": "/static/members/sekoo.jpg",
+      "career": {
+        "__html": "Project Manager at SunjinSM<br>Gyeonggi College of Science and Technology. Department of Precision Mechanical Engineering"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Sumin Ju",
+      "title": "Content Producer",
+      "photo": "/static/members/smju.jpg",
+      "career": {
+        "__html": ""
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Yanlei Cui",
+      "title": "Content Producer",
+      "photo": "/static/members/ylcui.jpg",
+      "career": {
+        "__html": "Hanyang University, the Graduate School. Education"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Seeun Choi",
+      "title": "Content Producer",
+      "photo": "/static/members/sechoi.jpg",
+      "career": {
+        "__html": "Chinese Transrator at Mydaily Media<br>Busan University of Foreign Studies. Department of Chinese"
+      },
+      "links": {
+      }
+    }
+  ]
+}

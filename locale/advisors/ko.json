@@ -1,0 +1,32 @@
+{
+  "advisors": [
+    {
+      "name": "Inha Park",
+      "photo": "https://robohash.org/박인하",
+      "bio": {
+        "__html": "Member of board, The Korea Cartoonist Association<br>Professor, School of Mahwa Contents, ChungKang College of Cultural Industries"
+      }
+    },
+    {
+      "name": "Shen Rong",
+      "photo": "https://robohash.org/Shen Rong 沈荣",
+      "bio": {
+        "__html": ""
+      }
+    },
+    {
+      "name": "Ina Jang",
+      "photo": "https://robohash.org/박인하",
+      "bio": {
+        "__html": "(Current) CEO, Smilegate Entertainment<br>(Current) CEO, Smilegate Megaport<br>(Current) Board Member, Smilegate Group"
+      }
+    },
+    {
+      "name": "Seunghwan Yeo",
+      "photo": "/static/advisors/shyeo.jpg",
+      "bio": {
+        "__html": "(Current) CEO, Smilegate Entertainment<br>(Current) CEO, Smilegate Megaport<br>(Current) Board Member, Smilegate Group"
+      }
+    }
+  ]
+}

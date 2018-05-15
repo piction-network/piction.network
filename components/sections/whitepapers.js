@@ -1,0 +1,54 @@
+import { Row, Col } from "../flexbox";
+import SectionHeading from "../SectionHeading";
+
+export default () => (
+  <section id="whitepapers">
+    <SectionHeading>Whitepaper</SectionHeading>
+    <Row>
+      <Col sm={12} md={6} lg={6}>
+        <div className="center">
+          <h3>Whitepaper</h3>
+          <ul>
+            <li><a className="btn" href="https://docs.google.com/document/d/1UC7GOFkv56_THFZset4QXlOmaGnhFRvufEiU3pDyBzc/edit?usp=sharing">Korean</a></li>
+            <li><a className="btn" href="#">English</a></li>
+            <li><a className="btn" href="#">Chinese</a></li>
+          </ul>
+        </div>
+      </Col>
+      <Col sm={12} md={6} lg={6}>
+        <div className="center">
+          <h3>One-pager</h3>
+          <ul>
+            <li><a className="btn" href="#">English</a></li>
+          </ul>
+        </div>
+      </Col>
+    </Row>
+    <style jsx>{`
+    #whitepapers {
+      background-color: #444;
+      color: white;
+      padding: 1em;
+    }
+    .center {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    .btn {
+      margin: 1em;
+      padding: 1em;
+      display: inline-block;
+      min-width: 50%;
+      color: #ff793f;
+      font-weight: bold;
+      border-radius: 1em;
+      text-decoration: none;
+      background-color: white;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+    }
+    `}</style>
+  </section>
+)

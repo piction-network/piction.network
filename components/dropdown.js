@@ -6,8 +6,8 @@ import Caret from '../static/caret.svg';
 
 const Menu = () => (
   <div className="dropdown__menu">
-    <a href="/">한국어</a>
-    <a href="/en">English</a>
+    <a href="/">English</a>
+    <a href="/ko">한국어</a>
     <a href="/cn">中文</a>
     <style jsx>{`
       .dropdown__menu {

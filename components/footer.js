@@ -3,7 +3,12 @@ export default ({ contact }) => (
     <h3 className="footer__heading">{contact}</h3>
 
     <div className="footer__contact">
-      <a href="mailto:contact@piction.network">contact@piction.network</a>
+      <ul>
+        <li><a href="https://medium.com/piction" target="_blank">Medium</a></li>
+        <li><a href="https://t.me/piction_kr" target="_blank">Telegram</a></li>
+        <li><a href="https://open.kakao.com/o/gyVQbDM" target="_blank">Kakaotalk</a></li>
+        <li><a href="mailto:contact@piction.network">contact@piction.network</a></li>
+      </ul>
     </div>
 
     <div className="footer__copyright">
