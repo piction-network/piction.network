@@ -10,7 +10,7 @@ export default ({message}) => (
     <style jsx>{`
       .hero {
         padding-top: 68px;
-        height: 640px;
+        margin-bottom: 4em;
       }
       .hero__heading {
         margin-top: 96px;
@@ -34,8 +34,9 @@ export default ({message}) => (
         text-decoration: none;
         color: white;
         background-color: #4a4a4a;
-        padding: 0.5em 2em;
+        padding: 1em 2em;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+        display: inline-block;
       }
 
       @media (max-width: 768px) {
@@ -60,6 +61,16 @@ export default ({message}) => (
         .hero__heading {
           margin-top: 55px;
           font-size: 32px;
+        }
+        .hero__whitepapers {
+          text-align: center;
+        }
+        .hero__whitepapers li {
+          display: block;
+        }
+        .hero__whitepapers li + li {
+          margin-left: 0;
+          margin-top: 1em;
         }
       }
     `}</style>
