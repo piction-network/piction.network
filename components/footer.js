@@ -26,7 +26,7 @@ export default ({ contact }) => (
 
       @media (max-width: 768px) {
         footer {
-          background-position-x: -600px;
+          background-position-x: -670px;
         }
       }
 

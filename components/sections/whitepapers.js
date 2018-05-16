@@ -10,7 +10,7 @@ export default () => (
           <img src="/static/img-whitepaper.png" />
           <h3>Whitepaper</h3>
           <ul>
-            <li><a className="btn" href="https://docs.google.com/document/d/1UC7GOFkv56_THFZset4QXlOmaGnhFRvufEiU3pDyBzc/edit?usp=sharing">Korean</a></li>
+            <li><a className="btn" href="https://docs.google.com/document/d/1UC7GOFkv56_THFZset4QXlOmaGnhFRvufEiU3pDyBzc/edit?usp=sharing" target="_blank">Korean</a></li>
           </ul>
         </div>
       </Col>
@@ -19,7 +19,7 @@ export default () => (
           <img src="/static/img-onepager.png" />
           <h3>One-pager</h3>
           <ul>
-            <li><a className="btn" href="#">English</a></li>
+            <li><a className="btn" href="/static/docs/piction-onepager-20180515.pdf" target="_blank">English</a></li>
           </ul>
         </div>
       </Col>
