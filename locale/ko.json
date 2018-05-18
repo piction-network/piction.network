@@ -1,7 +1,17 @@
 {
   "code": "ko",
   "selected": "한국어",
-  "hero": "창작자와 독자 중심의 신뢰할 수 있는 블록체인 기반 웹툰, 웹소설 생태계",
+  "hero": {
+    "message": "창작자와 독자 중심의 신뢰할 수 있는 블록체인 기반 웹툰, 웹소설 생태계",
+    "whitepaper": {
+      "button": "Whitepaper (KOR)",
+      "link": "https://docs.google.com/document/d/1UC7GOFkv56_THFZset4QXlOmaGnhFRvufEiU3pDyBzc/edit?usp=sharing"
+    },
+    "onepager": {
+      "button": "One-pager (ENG)",
+      "link": "/static/docs/piction-onepager-20180515.pdf"
+    }
+  },
   "footer": {
     "contact": "문의"
   },

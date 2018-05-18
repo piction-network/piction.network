@@ -1,10 +1,10 @@
-export default ({message}) => (
+export default ({locale}) => (
   <div className="hero">
     <img src="/static/logo.svg" className="hero__logo" />
-    <h1 className="hero__heading">{message}</h1>
+    <h1 className="hero__heading">{locale.message}</h1>
     <ul className="hero__whitepapers">
-      <li><a className="btn" href="https://docs.google.com/document/d/1UC7GOFkv56_THFZset4QXlOmaGnhFRvufEiU3pDyBzc/edit?usp=sharing" target="_blank">Whitepaper</a></li>
-      <li><a className="btn" href="/static/docs/piction-onepager-20180515.pdf" target="_blank">One-pager</a></li>
+      <li><a className="btn" href={locale.whitepaper.link} target="_blank">{locale.whitepaper.button}</a></li>
+      <li><a className="btn" href={locale.onepager.link} target="_blank">{locale.onepager.button}</a></li>
     </ul>
 
     <style jsx>{`

@@ -17,7 +17,7 @@ export default ({ locale }) => (
       <div className="locale">
         <Dropdown selected={locale.selected} />
       </div>
-      <Hero message={locale.hero} />
+      <Hero locale={locale.hero} />
 
       <Introduction locale={locale} />
       <style jsx>{`

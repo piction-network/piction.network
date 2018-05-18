@@ -1,6 +1,16 @@
 {
   "selected": "English",
-  "hero": "Blockchain based paid digital contents ecosystem for creators and community",
+  "hero": {
+    "message": "Blockchain based paid digital contents ecosystem for creators and community",
+    "whitepaper": {
+      "button": "Whitepaper (ENG)",
+      "link": "https://docs.google.com/document/d/1LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing"
+    },
+    "onepager": {
+      "button": "One-pager (ENG)",
+      "link": "/static/docs/piction-onepager-20180515.pdf"
+    }
+  },
   "for_creator": {
     "title": "Free your creativity",
     "body": "We challenge centralized power of the traditional digital contents distribution system. Creator owns full right for their work, how you sell, how you distribute. Piction will give power back to creators."

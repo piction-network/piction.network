@@ -1,6 +1,16 @@
 {
   "selected": "中文",
-  "hero": "值得创作者和读者信赖的网络漫画和网络小说区块链生态系统",
+  "hero": {
+    "message": "值得创作者和读者信赖的网络漫画和网络小说区块链生态系统",
+    "whitepaper": {
+      "button": "Whitepaper (ENG)",
+      "link": "https://docs.google.com/document/d/1LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing"
+    },
+    "onepager": {
+      "button": "One-pager (ENG)",
+      "link": "/static/docs/piction-onepager-20180515.pdf"
+    }
+  },
   "for_creator": {
     "title": "放飞你的创造力",
     "body": "在Piction上创作者不仅仅只是作品的创作者，并且能拥有和自己作品相关的一切权利。创作者们可以根据自己的个人情况来拟定适合自己的作品连载方式，制作费的需求和销售方式。这也是我们使用区块链技术制作这个生态系统的初衷——把作品的所有权归还给创作者。"
