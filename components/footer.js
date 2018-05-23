@@ -6,8 +6,6 @@ export default ({ contact }) => (
 
     <div className="footer__contact">
       <ul>
-        <li><a href="https://t.me/piction_kr" target="_blank">Telegram</a></li>
-        <li><a href="https://open.kakao.com/o/gyVQbDM" target="_blank">Kakaotalk</a></li>
         <li><a href="mailto:contact@piction.network">contact@piction.network</a></li>
       </ul>
     </div>
