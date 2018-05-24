@@ -27,6 +27,18 @@ export default ({ locale }) => (
           right: 0;
           margin-top: 50px;
         }
+
+        @media (max-width: 768px) {
+          .locale {
+            margin-top: 36px;
+          }
+        }
+        @media (max-width: 640px) {
+          .locale {
+            margin-top: 26px;
+          }
+        }
+
       `}</style>
     </Page>
     <div className="peoples page">

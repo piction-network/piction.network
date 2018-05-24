@@ -120,7 +120,8 @@ export default ({ locale, children }) => (
 
       .page {
         position: relative;
-        max-width: 1224px;
+        max-width: 1256px;
+        padding: 0 16px;
         margin: auto;
       }
       .main {

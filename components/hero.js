@@ -1,6 +1,6 @@
 export default ({locale}) => (
   <div className="hero">
-    <img src="/static/logo.svg" className="hero__logo" />
+    <img src="/static/logo.png" className="hero__logo" />
     <h1 className="hero__heading">{locale.message}</h1>
     <ul className="hero__whitepapers">
       <li><a className="btn" href={locale.whitepaper.link} target="_blank">{locale.whitepaper.button}</a></li>
@@ -11,6 +11,10 @@ export default ({locale}) => (
       .hero {
         padding-top: 68px;
         margin-bottom: 4em;
+      }
+      .hero__logo {
+        width: 167px;
+        height: 54px;
       }
       .hero__heading {
         margin-top: 96px;
@@ -56,7 +60,7 @@ export default ({locale}) => (
         }
         .hero__logo {
           width: 143px;
-          height: 36px
+          height: 46px
         }
         .hero__heading {
           margin-top: 55px;
