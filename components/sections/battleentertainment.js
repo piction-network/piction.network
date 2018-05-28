@@ -92,7 +92,7 @@ export default () => (
           <Number prefix="Raised Over" number="9,000,000+ USD" label="from Seed funding, Series A and Series B equity funding from leading institutions that trust us:" />
         </Col>
         <Col lg={2} md={6}>
-          <Investor name="Smilegate Investment" ci="/static/investors/smilegate-Investment.jpg">
+          <Investor name="Smilegate Investment" ci="/static/investors/smilegate-investment.jpg">
             VC of Smilegate, game developer of 'CrossFire'- global No.1 FPS, the most played FPS with over 650M
           </Investor>
         </Col>
