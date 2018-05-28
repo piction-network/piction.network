@@ -17,18 +17,30 @@ const Partner = ({name}) => (
   </div>
 )
 
+const CategoryHeading = ({children}) => (
+  <div>
+    <h3>{children}</h3>
+    <style jsx>{`
+    font-size: 28px;
+    margin-top: 120px;
+    text-align: center;
+    color: var(--color-primary);
+    `}</style>
+  </div>
+)
+
 export default class Partners extends React.Component {
   render() {
     const partners = partner_list.partners.map((partner, index) => {
       return (
-        <Col lg={3}>
+        <Col lg={3} md={6} sm={6} key={index}>
           <Partner name={partner.name} />
         </Col>
       )
     })
     const contents_global = partner_list.global_content.map((partner, index) => {
       return (
-        <Col lg={3}>
+        <Col lg={3} md={6} sm={6} key={index}>
           <Partner name={partner.name} />
         </Col>
       )
@@ -36,7 +48,7 @@ export default class Partners extends React.Component {
 
     const contents_korea = partner_list.korea_content.map((partner, index) => {
       return (
-        <Col lg={3}>
+        <Col lg={3} md={6} sm={6} key={index}>
           <Partner name={partner.name} />
         </Col>
       )
@@ -44,7 +56,7 @@ export default class Partners extends React.Component {
 
     const governments = partner_list.governments.map((partner, index) => {
       return (
-        <Col lg={4}>
+        <Col lg={4} md={6} sm={6} key={index}>
           <Partner name={partner.name} />
         </Col>
       )
@@ -52,7 +64,7 @@ export default class Partners extends React.Component {
 
     const others = partner_list.others.map((partner, index) => {
       return (
-        <Col lg={3}>
+        <Col lg={3} md={6} sm={6} key={index}>
           <Partner name={partner.name} />
         </Col>
       )
@@ -61,27 +73,28 @@ export default class Partners extends React.Component {
     return (
       <section id="partners">
         <SectionHeading prefix="These are our">PARTNERS</SectionHeading>
-        <SectionDescription>Game Company</SectionDescription>
+
+        <CategoryHeading>Game Company</CategoryHeading>
         <Row>
           { partners }
         </Row>
 
-        <SectionDescription>Global Contents</SectionDescription>
+        <CategoryHeading>Global Contents</CategoryHeading>
         <Row>
           { contents_global }
         </Row>
 
-        <SectionDescription>Korea Contents</SectionDescription>
+        <CategoryHeading>Korea Contents</CategoryHeading>
         <Row>
           { contents_korea }
         </Row>
 
-        <SectionDescription>Government / Associations</SectionDescription>
+        <CategoryHeading>Government / Associations</CategoryHeading>
         <Row>
           { governments }
         </Row>
 
-        <SectionDescription>Others</SectionDescription>
+        <CategoryHeading>Others</CategoryHeading>
         <Row>
           { others }
         </Row>

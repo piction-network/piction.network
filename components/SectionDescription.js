@@ -8,7 +8,10 @@ export default ({children}) => (
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
-    max-width: 700px;
+    max-width: 650px;
+    @media (max-width: 768px) {
+      font-size: 1em;
+    }
     `}</style>
   </div>
 )

@@ -61,6 +61,7 @@ class Dropdown extends React.Component {
         { menu }
         <style jsx>{`
         .dropdown {
+          position: relative;
           padding: 16px;
           min-width: 132px;
           border-radius: 8px;

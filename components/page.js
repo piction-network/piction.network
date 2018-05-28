@@ -1,12 +1,10 @@
 import Meta from "./meta";
-import Background from "../components/background";
-import Unit from "../components/unit";
-import Sparkles from "../components/sparkles";
+import Navigation from "./nav";
 
 export default ({ locale, children }) => (
   <div className="main">
     <Meta locale={locale} />
-
+    <Navigation selected={locale.selected}/>
     <div className="page">
       { children }
     </div>
@@ -128,7 +126,8 @@ export default ({ locale, children }) => (
     }
 
     section {
-      margin-top: 9em;
+      margin-top: 6em;
+      padding-top: 90px;
     }
     .page {
       position: relative;
@@ -137,7 +136,6 @@ export default ({ locale, children }) => (
       margin: auto;
     }
     .main {
-      border-top: 4px solid var(--color-primary);
       overflow: hidden;
       background-image: url("/static/background.jpg");
       background-size: contain;

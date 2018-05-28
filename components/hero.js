@@ -1,6 +1,6 @@
 export default ({locale}) => (
   <div className="hero">
-    <img src="/static/logo.png" className="hero__logo" />
+    <img src="/static/logov.png" className="hero__logo" />
     <p className="hero__message" dangerouslySetInnerHTML={locale.message} />
     <ul className="hero__whitepapers">
       <li><a className="btn" href={locale.whitepaper.link} target="_blank">{locale.whitepaper.button}</a></li>
@@ -9,12 +9,10 @@ export default ({locale}) => (
 
     <style jsx>{`
       .hero {
-        padding-top: 68px;
+        padding-top: 140px;
         margin-bottom: 4em;
       }
       .hero__logo {
-        width: 334px;
-        height: 108px;
         display: block;
         margin: 0 auto;
       }
@@ -51,7 +49,6 @@ export default ({locale}) => (
       @media (max-width: 768px) {
         .hero {
           padding-top: 36px;
-          height: 500px;
         }
         .hero__message {
           margin-top: 64px;
@@ -59,15 +56,14 @@ export default ({locale}) => (
       }
       @media (max-width: 640px) {
         .hero {
-          padding-top: 28px;
-          height: auto;
+          padding-top: 80px;
         }
         .hero__logo {
-          width: 143px;
-          height: 46px
+          width: 50%;
         }
         .hero__message {
           margin-top: 55px;
+          font-size: 1em;
         }
         .hero__whitepapers {
           text-align: center;

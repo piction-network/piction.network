@@ -2,7 +2,7 @@ import locale from "../../locale/advisors/ko";
 import { Row, Col } from "../flexbox";
 import SectionHeading from "../SectionHeading";
 
-const Advisor = ({name, bio, photo}) => (
+const Advisor = ({name, bio, comment, photo}) => (
   <div className="advisor">
     <div className="advisor__photo">
       <img src={photo} />
@@ -10,6 +10,7 @@ const Advisor = ({name, bio, photo}) => (
     <div className="advisor__info">
       <h6 className="advisor__name">{name}</h6>
       <p className="advisor__bio" dangerouslySetInnerHTML={bio} />
+      <p className="advisor__comment" dangerouslySetInnerHTML={comment} />
     </div>
     <style jsx>{`
     .advisor {
@@ -28,7 +29,10 @@ const Advisor = ({name, bio, photo}) => (
       margin: 0.25em 0;
     }
     .advisor__bio {
-      color: #444444;
+      color: var(--color-primary);
+    }
+    .advisor__comment {
+      color: var(--color-gray);
     }
     .advisor__photo img {
       line-height: 0;
@@ -63,7 +67,7 @@ export default class Advisors extends React.Component {
     const list = locale.advisors.map((advisor, index) => {
       return (
         <Col lg={6} md={12} sm={12} key={index}>
-          <Advisor name={advisor.name} bio={advisor.bio} photo={advisor.photo} />
+          <Advisor name={advisor.name} bio={advisor.bio} photo={advisor.photo} comment={advisor.comment} />
         </Col>
       )
     })

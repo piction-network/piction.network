@@ -6,7 +6,7 @@ export default () => (
   <section id="problems">
     <SectionHeading subfix="IN THE DIGITAL CONTENTS INDUSTRY">PROBLEMS</SectionHeading>
     <Row>
-      <Col lg={4}>
+      <Col lg={4} md={12} sm={12}>
         <h4>Artists</h4>
         <p>
           Left on the receiving end, artists do not have sufficient negotiating power to demand for lower fees for their work
@@ -24,7 +24,7 @@ export default () => (
           Face production cost issues for their artwork that leaves them to discontinue their work.
         </p>
       </Col>
-      <Col lg={4}>
+      <Col lg={4} md={12} sm={12}>
         <h4>Extractive Monopolies</h4>
         <p>
           Digital contents publishers have almost absolute control over an artist’s success in the digital contents industry.
@@ -34,7 +34,7 @@ export default () => (
           k
         </p>
       </Col>
-      <Col lg={4}>
+      <Col lg={4} md={12} sm={12}>
         <h4>Community</h4>
         <p>
           The largest untapped resource today is the power of the community. Community fans and loyal supporters form an integral part of an artist’s success in the industry. They also form a crucial role in helping to fund an artist’s work.

@@ -27,6 +27,7 @@ const Milestone = ({time, title, side, children}) => (
       border-left: 2px solid var(--color-primary);
     }
 
+
     .milestone__description {
       padding: 1em;
       box-shadow: var(--box-shadow);
@@ -52,6 +53,7 @@ const Milestone = ({time, title, side, children}) => (
       box-shadow: var(--box-shadow);
       position: absolute;
       background-color: var(--color-primary);
+      text-align: center;
     }
 
     [data-side="left"] .milestone__marker {
@@ -62,6 +64,47 @@ const Milestone = ({time, title, side, children}) => (
     [data-side="right"] .milestone__marker {
       left: 0;
       transform: translateX(-50%) translateY(50%);
+    }
+
+    @media (max-width: 768px) {
+      .milestone[data-side="left"] {
+        margin-left: 0;
+        width: 100%;
+        border-right: none;
+        border-left: 2px solid var(--color-primary);
+      }
+
+      .milestone[data-side="right"] {
+        width: 100%;
+        margin-left: 0;
+        border-left: 2px solid var(--color-primary);
+      }
+      .milestone__marker {
+        width: 50px;
+        height: 50px;
+        font-size: 0.8em;
+        padding: 0.25em;
+      }
+
+      [data-side="left"] .milestone__description {
+        margin-right: 0;
+        margin-left: 40px;
+      }
+
+      [data-side="right"] .milestone__description {
+        margin-right: 0;
+        margin-left: 40px;
+      }
+
+      [data-side="left"] .milestone__marker {
+        left: 0;
+        transform: translateX(-50%) translateY(50%);
+      }
+
+      [data-side="right"] .milestone__marker {
+        left: 0;
+        transform: translateX(-50%) translateY(50%);
+      }
     }
 
     `}</style>
