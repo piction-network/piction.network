@@ -65,7 +65,7 @@ export default class Teams extends React.Component {
 
     return (
       <section id="teams" className="teams">
-        <SectionHeading>Teams</SectionHeading>
+        <SectionHeading prefix="This is our">TEAM</SectionHeading>
         <Row>
           { list }
         </Row>

@@ -70,7 +70,7 @@ export default class Advisors extends React.Component {
 
     return (
       <section id="advisors">
-        <SectionHeading>Advisors</SectionHeading>
+        <SectionHeading prefix="These are our">ADVISORS</SectionHeading>
         <Row>
           { list }
         </Row>

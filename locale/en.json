@@ -1,7 +1,9 @@
 {
   "selected": "English",
   "hero": {
-    "message": "Blockchain based paid digital contents ecosystem for creators and community",
+    "message": {
+      "__html": "Piction Network is creating a new peer to peer digital contents ecosystem.<br><br> We are disrupting the centralized models of content distribution dominated by extractive intermediaries"
+    },
     "whitepaper": {
       "button": "Whitepaper (ENG)",
       "link": "https://docs.google.com/document/d/1LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing"

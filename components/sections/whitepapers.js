@@ -1,11 +1,15 @@
 import { Row, Col } from "../flexbox";
 import SectionHeading from "../SectionHeading";
+import SectionDescription from "../SectionDescription";
 
 export default () => (
   <section id="whitepapers">
-    <SectionHeading>Whitepaper</SectionHeading>
+    <SectionHeading>Fundamental Documents</SectionHeading>
+    <SectionDescription>
+      To help you gain a deeper understanding of Piction Network, our team has prepared 3 papers for your review.
+    </SectionDescription>
     <Row>
-      <Col sm={12} md={6} lg={6}>
+      <Col sm={12} md={6} lg={4}>
         <div className="center">
           <img src="/static/img-whitepaper.png" />
           <h3>Whitepaper</h3>
@@ -15,7 +19,14 @@ export default () => (
           </ul>
         </div>
       </Col>
-      <Col sm={12} md={6} lg={6}>
+      <Col sm={12} md={6} lg={4}>
+        <div className="center">
+          <img src="/static/img-whitepaper.png" />
+          <h3>Token economy Whitepaper</h3>
+          <p>To be announced</p>
+        </div>
+      </Col>
+      <Col sm={12} md={6} lg={4}>
         <div className="center">
           <img src="/static/img-onepager.png" />
           <h3>One-pager</h3>

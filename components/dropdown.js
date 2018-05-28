@@ -8,7 +8,6 @@ const Menu = () => (
   <div className="dropdown__menu">
     <a href="/">English</a>
     <a href="/ko">한국어</a>
-    <a href="/cn">中文</a>
     <style jsx>{`
       .dropdown__menu {
         margin-top: 14px;

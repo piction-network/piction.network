@@ -1,0 +1,23 @@
+{
+  "investors": [
+    {
+      "name": "Smilegate Investment",
+      "description": "VC of Smilegate, game developer of 'CrossFire'- global No.1 FPS, the most played FPS with over 650M"
+    },
+    {
+      "name": "Industrial Bank of Korea"
+    },
+    {
+      "name": "KTB Networks"
+    },
+    {
+      "name": "IMM Investment"
+    },
+    {
+      "name": "Union Investment"
+    },
+    {
+      "name": "Angang Venture Investment"
+    }
+  ]
+}

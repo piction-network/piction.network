@@ -3,11 +3,11 @@ import Head from "next/head";
 export default ({locale}) => (
   <Head>
     <meta charSet="utf-8" />
-    <title>Piction network</title>
+    <title>Piction Network</title>
     <meta name="description" content={locale.hero} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="og:title" content="Piction network" />
+    <meta name="og:title" content="Piction Network" />
     <meta name="og:description" content={locale.hero} />
     <meta name="og:image" content="/static/og.png" />
 

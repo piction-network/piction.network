@@ -1,0 +1,191 @@
+{
+  "partners": [
+    {
+      "name": "Smilegate Entertainment"
+    },
+    {
+      "name": "Smilegate Megaport"
+    },
+    {
+      "name": "Nexon"
+    },
+    {
+      "name": "Neople",
+      "description": "Game developer of 'Dungeon & Fighters', Subsidiary of Nexon"
+    },
+    {
+      "name": "Riot Games"
+    },
+    {
+      "name": "Blizzard"
+    },
+    {
+      "name": "Netmarble"
+    },
+    {
+      "name": "Tencent Games"
+    },
+    {
+      "name": "NCsoft"
+    },
+    {
+      "name": "Neowiz"
+    },
+    {
+      "name": "Supercell"
+    },
+    {
+      "name": "X.D. Global Limited"
+    },
+    {
+      "name": "Flero Games"
+    },
+    {
+      "name": "PATI Games"
+    },
+    {
+      "name": "XL Games"
+    },
+    {
+      "name": "Buff Studio"
+    },
+    {
+      "name": "Highbrow"
+    },
+    {
+      "name": "Monster Planet"
+    },
+    {
+      "name": "Super Awesome Inc."
+    }
+  ],
+  "global_content": [
+    {
+      "name": "Tencent Comic",
+      "description": "Established on 21 March 2012, Tencent Comic is now China’s largest original and legitimate online animation platform. Originality is nurtured on the platform, bolstered by the core value of copyright and IP protection. Tencent Comic has established key connections and partnerships with outstanding global industry partners, such as Animation Comic Game China Group, Walt Disney, Shueisha, Bandai, Kadokawa and Kodansha. With a new business strategy advocated by the animation industry, Tencent Comic aspires to create compelling content and nurture star IP through the building of a robust eco-system."
+    },
+    {
+      "name": "Kuaikan manhua"
+    },
+    {
+      "name": "Oookbee"
+    },
+    {
+      "name": "Tappytoon"
+    }
+  ],
+  "korea_content": [
+    {
+      "name": "Naver Webtoon"
+    },
+    {
+      "name": "Kakao page"
+    },
+    {
+      "name": "Daum Webtoon"
+    },
+    {
+      "name": "Lezhin Comics"
+    },
+    {
+      "name": "Ridi Books"
+    },
+    {
+      "name": "Toptoon"
+    },
+    {
+      "name": "Comica"
+    },
+    {
+      "name": "Mr.Blue"
+    },
+    {
+      "name": "Justoon"
+    },
+    {
+      "name": "Bom Toon"
+    },
+    {
+      "name": "Tapas Media"
+    },
+    {
+      "name": "Daon Creative"
+    },
+    {
+      "name": "Image Frame"
+    },
+    {
+      "name": "U-jewel Media"
+    },
+    {
+      "name": "Jaedam Media"
+    },
+    {
+      "name": "Cogul Planet"
+    },
+    {
+      "name": "Afreeca TV"
+    },
+    {
+      "name": "KOCN"
+    },
+    {
+      "name": "Cream Media"
+    },
+    {
+      "name": "SHINYOUNG MEDIA SERVICE,Inc."
+    },
+    {
+      "name": "B-Books"
+    },
+    {
+      "name": "The CL Book"
+    },
+    {
+      "name": "Donga Media Group"
+    },
+    {
+      "name": "1535 Studio"
+    },
+    {
+      "name": "RaemongRaein Co., Ltd."
+    },
+    {
+      "name": "River Pictures"
+    }
+  ],
+  "governments": [
+    {
+      "name": "KOMACON (Korea Manhwa Contents Agency)"
+    },
+    {
+      "name": "The Korea Cartoonist Association"
+    },
+    {
+      "name": "Webtoon Association"
+    },
+    {
+      "name": "Korea Webtoon Industry Association"
+    },
+    {
+      "name": "Gwangju Information and Culture Industry Promotion agency"
+    },
+    {
+      "name": "CHUNGKANG COLLEGE OF CULTURAL INDUSTRIES"
+    }
+  ],
+  "others": [
+    {
+      "name": "IGAWorks"
+    },
+    {
+      "name": "Buzzvil"
+    },
+    {
+      "name": "Wemakeprice"
+    },
+    {
+      "name": "AKAMAI"
+    }
+  ]
+}
