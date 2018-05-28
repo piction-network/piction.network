@@ -1,7 +1,9 @@
 {
   "selected": "中文",
   "hero": {
-    "message": "值得创作者和读者信赖的网络漫画和网络小说区块链生态系统",
+    "message": {
+      "__html": "值得创作者和读者信赖的网络漫画和网络小说区块链生态系统"
+    },
     "whitepaper": {
       "button": "Whitepaper (ENG)",
       "link": "https://docs.google.com/document/d/1LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing"
