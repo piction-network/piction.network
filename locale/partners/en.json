@@ -1,77 +1,99 @@
 {
   "partners": [
     {
-      "name": "Smilegate Entertainment"
+      "name": "Smilegate Entertainment",
+      "link": "https://www.smilegate.com"
     },
     {
-      "name": "Smilegate Megaport"
+      "name": "Smilegate Megaport",
+      "link": "http://mobile.smilegatemegaport.com"
     },
     {
-      "name": "Nexon"
+      "name": "Nexon",
+      "link": "http://company.nexon.com/"
     },
     {
       "name": "Neople",
-      "description": "Game developer of 'Dungeon & Fighters', Subsidiary of Nexon"
+      "description": "Game developer of 'Dungeon & Fighters', Subsidiary of Nexon",
+      "link": "http://www.neople.co.kr/"
     },
     {
-      "name": "Riot Games"
+      "name": "Riot Games",
+      "link": "https://www.riotgames.com"
     },
     {
-      "name": "Blizzard"
+      "name": "Blizzard",
+      "link": "https://www.blizzard.com/"
     },
     {
-      "name": "Netmarble"
+      "name": "Netmarble",
+      "link": "http://company.netmarble.com/"
     },
     {
-      "name": "Tencent Games"
+      "name": "Tencent Games",
+      "link": "http://company.netmarble.com/"
     },
     {
-      "name": "NCsoft"
+      "name": "NCsoft",
+      "link": "http://ncsoft.com/"
     },
     {
-      "name": "Neowiz"
+      "name": "Neowiz",
+      "link": "http://www.neowiz.co.kr/"
     },
     {
-      "name": "Supercell"
+      "name": "Supercell",
+      "link": "http://supercell.com/"
     },
     {
       "name": "X.D. Global Limited"
     },
     {
-      "name": "Flero Games"
+      "name": "Flero Games",
+      "link": "http://www.flerogames.com/"
     },
     {
-      "name": "PATI Games"
+      "name": "PATI Games",
+      "link": "https://www.patigames.com/"
     },
     {
-      "name": "XL Games"
+      "name": "XL Games",
+      "link": "https://www.xlgames.com/"
     },
     {
-      "name": "Buff Studio"
+      "name": "Buff Studio",
+      "link": "http://www.buffstudio.com/"
     },
     {
-      "name": "Highbrow"
+      "name": "Highbrow",
+      "link": "http://www.highbrow-inc.com/"
     },
     {
-      "name": "Monster Planet"
+      "name": "Monster Planet",
+      "link": "https://www.monsterplanet.co.kr/"
     },
     {
-      "name": "Super Awesome Inc."
+      "name": "Super Awesome Inc.",
+      "link": "http://superawesome.co.kr/"
     }
   ],
   "global_content": [
     {
       "name": "Tencent Comic",
+      "link": "http://comic.qq.com/",
       "description": "Established on 21 March 2012, Tencent Comic is now China’s largest original and legitimate online animation platform. Originality is nurtured on the platform, bolstered by the core value of copyright and IP protection. Tencent Comic has established key connections and partnerships with outstanding global industry partners, such as Animation Comic Game China Group, Walt Disney, Shueisha, Bandai, Kadokawa and Kodansha. With a new business strategy advocated by the animation industry, Tencent Comic aspires to create compelling content and nurture star IP through the building of a robust eco-system."
     },
     {
-      "name": "Kuaikan manhua"
+      "name": "Kuaikan manhua",
+      "link": "https://www.kuaikanmanhua.com/"
     },
     {
-      "name": "Oookbee"
+      "name": "Oookbee",
+      "link": "http://www.ookbee.com/"
     },
     {
-      "name": "Tappytoon"
+      "name": "Tappytoon",
+      "link": "https://www.tappytoon.com/"
     }
   ],
   "korea_content": [
@@ -79,76 +101,98 @@
       "name": "Naver Webtoon"
     },
     {
-      "name": "Kakao page"
+      "name": "Kakaopage",
+      "link": "https://page.kakao.com/"
     },
     {
       "name": "Daum Webtoon"
     },
     {
-      "name": "Lezhin Comics"
+      "name": "Lezhin Comics",
+      "link": "https://www.lezhin.com/"
     },
     {
-      "name": "Ridi Books"
+      "name": "Ridi Books",
+      "link": "https://ridibooks.com/"
     },
     {
-      "name": "Toptoon"
+      "name": "Toptoon",
+      "link": "https://toptoon.com/"
     },
     {
-      "name": "Comica"
+      "name": "Comica",
+      "link": "https://www.comica.com/"
     },
     {
-      "name": "Mr.Blue"
+      "name": "Mr.Blue",
+      "link": "http://www.mrblue.com/"
     },
     {
-      "name": "Justoon"
+      "name": "Justoon",
+      "link": "https://www.justoon.co.kr/"
     },
     {
-      "name": "Bom Toon"
+      "name": "BOMTOON",
+      "link": "https://www.bomtoon.com/"
     },
     {
-      "name": "Tapas Media"
+      "name": "Tapas Media",
+      "link": "https://tapas.io/"
     },
     {
-      "name": "Daon Creative"
+      "name": "Daon Creative",
+      "link": "http://www.daoncreative.com/"
     },
     {
-      "name": "Image Frame"
+      "name": "Image Frame",
+      "link": "http://imageframe.kr/"
     },
     {
-      "name": "U-jewel Media"
+      "name": "U-jewel Media",
+      "link": "http://www.u-jewel.com/"
     },
     {
-      "name": "Jaedam Media"
+      "name": "Jaedam Media",
+      "link": "http://www.jaedam.com/"
     },
     {
-      "name": "Cogul Planet"
+      "name": "Cogul Planet",
+      "link": "http://www.cogulplanet.com/"
     },
     {
-      "name": "Afreeca TV"
+      "name": "Afreeca TV",
+      "link": "http://www.afreecatv.com/"
     },
     {
-      "name": "KOCN"
+      "name": "KOCN",
+      "link": "http://kocn.co.kr/"
     },
     {
-      "name": "Cream Media"
+      "name": "Cream Media",
+      "link": "https://www.facebook.com/%ED%81%AC%EB%A6%BC%EB%AF%B8%EB%94%94%EC%96%B4-938145979660723/"
     },
     {
-      "name": "SHINYOUNG MEDIA SERVICE,Inc."
+      "name": "SHINYOUNG MEDIA SERVICE,Inc.",
+      "link": "https://www.sybook.co.kr/"
     },
     {
-      "name": "B-Books"
+      "name": "B-Books",
+      "link": "http://www.b-books.co.kr/"
     },
     {
       "name": "The CL Book"
     },
     {
-      "name": "Donga Media Group"
+      "name": "Donga Media Group",
+      "link": "http://web.donga.com/damg"
     },
     {
-      "name": "1535 Studio"
+      "name": "1535 Studio",
+      "link": "http://www.1535inc.com/"
     },
     {
-      "name": "RaemongRaein Co., Ltd."
+      "name": "RaemongRaein Co., Ltd.",
+      "link": "http://www.raemongraein.co.kr/"
     },
     {
       "name": "River Pictures"
@@ -156,36 +200,46 @@
   ],
   "governments": [
     {
-      "name": "KOMACON (Korea Manhwa Contents Agency)"
+      "name": "KOMACON (Korea Manhwa Contents Agency)",
+      "link": "https://www.komacon.kr/komacon/"
     },
     {
-      "name": "The Korea Cartoonist Association"
+      "name": "The Korea Cartoonist Association",
+      "link": "http://www.cartoon.or.kr/"
     },
     {
-      "name": "Webtoon Association"
+      "name": "Webtoon Association",
+      "link": "http://wwebtoon.org/"
     },
     {
-      "name": "Korea Webtoon Industry Association"
+      "name": "Korea Webtoon Industry Association",
+      "link": "http://www.kwia.or.kr/"
     },
     {
-      "name": "Gwangju Information and Culture Industry Promotion agency"
+      "name": "Gwangju Information and Culture Industry Promotion agency",
+      "link": "http://www.gitct.kr/"
     },
     {
-      "name": "CHUNGKANG COLLEGE OF CULTURAL INDUSTRIES"
+      "name": "CHUNGKANG COLLEGE OF CULTURAL INDUSTRIES",
+      "link": "http://www.ck.ac.kr/"
     }
   ],
   "others": [
     {
-      "name": "IGAWorks"
+      "name": "IGAWorks",
+      "link": "http://igaworks.com/"
     },
     {
-      "name": "Buzzvil"
+      "name": "Buzzvil",
+      "link": "https://www.buzzvil.com/"
     },
     {
-      "name": "Wemakeprice"
+      "name": "Wemakeprice",
+      "link": "http://www.wemakeprice.com/"
     },
     {
-      "name": "AKAMAI"
+      "name": "AKAMAI",
+      "link": "https://www.akamai.com/"
     }
   ]
 }

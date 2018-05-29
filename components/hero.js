@@ -2,22 +2,20 @@ export default ({locale}) => (
   <div className="hero">
     <img src="/static/logov.png" className="hero__logo" />
     <p className="hero__message" dangerouslySetInnerHTML={locale.message} />
-    <ul className="hero__whitepapers">
-      <li><a className="btn" href={locale.whitepaper.link} target="_blank">{locale.whitepaper.button}</a></li>
-      <li><a className="btn" href={locale.onepager.link} target="_blank">{locale.onepager.button}</a></li>
-    </ul>
-
     <style jsx>{`
       .hero {
-        padding-top: 140px;
+        padding-top: 180px;
         margin-bottom: 4em;
       }
       .hero__logo {
         display: block;
         margin: 0 auto;
+        max-height: 200px;
+        object-fit: contain;
       }
       .hero__message {
-        font-size: 1.4em;
+        text-align: center;
+        font-size: 1.2em;
         margin-top: 96px;
         margin-bottom: 96px;
         margin-left: auto;

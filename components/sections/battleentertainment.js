@@ -22,15 +22,17 @@ const Number = ({prefix, number, label, children}) => (
       font-weight: bold;
     }
     .number__description {
-      color: var(--color-secondary);
+      color: var(--color-gray);
     }
     `}</style>
   </div>
 )
 
-const Investor = ({name, ci, children}) => (
+const Investor = ({name, ci, href, children}) => (
   <div className="investor">
-    <img src={ci} />
+    <a href={href}>
+      <img src={ci} />
+    </a>
     <small>{children}</small>
     <style jsx>{`
     text-align: center;
@@ -57,11 +59,18 @@ export default () => (
     <SectionDescription>
       <img src="static/battleent.svg" />
       <p>
-         Piction Network is led by Battle Entertainment - a leading digital contents production and distribution platform from South Korea and China proved by the experience, industry insights and trust from leading institutions.
+        Piction Network is led by <a href="https://www.battleent.com">Battle Entertainment</a> - a leading digital contents production and distribution platform from Korea and China with the experience, industry insights and trust from leading institutions.
       </p>
       <style jsx>{`
         color: var(--color-gray);
         font-size: 1.125rem;
+        img {
+          width: 318px;
+          height: 102px;
+        }
+        a {
+          color: var(--color-secondary);
+        }
         @media (max-width: 768px) {
           font-size: 1rem;
         }
@@ -82,7 +91,7 @@ export default () => (
       </Row>
       <style jsx>{`
       .numbers {
-        margin-top: 80px;
+        margin-top: 40px;
       }
       `}</style>
     </div>
@@ -92,27 +101,27 @@ export default () => (
           <Number prefix="Raised Over" number="9,000,000+ USD" label="from Seed funding, Series A and Series B equity funding from leading institutions that trust us:" />
         </Col>
         <Col lg={2} md={6}>
-          <Investor name="Smilegate Investment" ci="/static/investors/smilegate-investment.jpg">
+          <Investor name="Smilegate Investment" ci="/static/investors/smilegate-investment.jpg" href="http://www.smilegateinvestment.com/">
             VC of Smilegate, game developer of 'CrossFire'- global No.1 FPS, the most played FPS with over 650M
           </Investor>
         </Col>
         <Col lg={2} md={6}>
-          <Investor name="Industrial Bank of Korea" ci="/static/investors/ibk.jpg">
+          <Investor name="Industrial Bank of Korea" ci="/static/investors/ibk.jpg" href="https://www.ibk.co.kr/">
             2nd largest government-run bank in Korea
           </Investor>
         </Col>
         <Col lg={2} md={6}>
-          <Investor name="KTB Networks" ci="/static/investors/ktb.png">
+          <Investor name="KTB Networks" ci="/static/investors/ktb.png" href="http://www.ktbnetwork.com/">
             The 1st Korean Venture Capital, established in 1981, AUM 60M USD
           </Investor>
         </Col>
         <Col lg={2} md={6}>
-          <Investor name="IMM Investment" ci="/static/investors/imm.jpg">
+          <Investor name="IMM Investment" ci="/static/investors/imm.jpg" href="http://imm.co.kr/">
             Korean Top Venture Capital, AUM 2,000M
           </Investor>
         </Col>
         <Col lg={2} md={6}>
-          <Investor name="Union Investment" ci="/static/investors/union.jpg">
+          <Investor name="Union Investment" ci="/static/investors/union.jpg" href="http://www.unionip.net/">
             Korean Top Venture Capital in the field of contents including movie, TV drama
           </Investor>
         </Col>
@@ -122,7 +131,7 @@ export default () => (
       </Row>
       <style jsx>{`
       .investments {
-        margin-top: 80px;
+        margin-top: 40px;
       }
       `}</style>
     </div>

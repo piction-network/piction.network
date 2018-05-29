@@ -40,6 +40,7 @@ export default () => (
     #whitepapers {
       background-color: #f8f8f8;
       padding: 1em;
+      padding-top: 80px;
     }
     .center {
       text-align: center;

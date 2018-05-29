@@ -3,9 +3,11 @@ import SectionHeading from "../SectionHeading";
 import SectionDescription from "../SectionDescription";
 import partner_list from "../../locale/partners/en.json";
 
-const Partner = ({name}) => (
+const Partner = ({name, logo, href}) => (
   <div className="partner">
-    <h5>{name}</h5>
+    <a href={href} target="_blank">
+      <h5>{name}</h5>
+    </a>
     <style jsx>{`
     .partner {
       box-shadow: var(--box-shadow);
@@ -25,6 +27,10 @@ const CategoryHeading = ({children}) => (
     margin-top: 120px;
     text-align: center;
     color: var(--color-primary);
+
+    @media(max-width: 640px) {
+      font-size: 20px;
+    }
     `}</style>
   </div>
 )
@@ -34,14 +40,14 @@ export default class Partners extends React.Component {
     const partners = partner_list.partners.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} />
+          <Partner name={partner.name} href={partner.link} />
         </Col>
       )
     })
     const contents_global = partner_list.global_content.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} />
+          <Partner name={partner.name} href={partner.link} />
         </Col>
       )
     })
@@ -49,7 +55,7 @@ export default class Partners extends React.Component {
     const contents_korea = partner_list.korea_content.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} />
+          <Partner name={partner.name} href={partner.link} />
         </Col>
       )
     })
@@ -57,7 +63,7 @@ export default class Partners extends React.Component {
     const governments = partner_list.governments.map((partner, index) => {
       return (
         <Col lg={4} md={6} sm={6} key={index}>
-          <Partner name={partner.name} />
+          <Partner name={partner.name} href={partner.link} />
         </Col>
       )
     })
@@ -65,7 +71,7 @@ export default class Partners extends React.Component {
     const others = partner_list.others.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} />
+          <Partner name={partner.name} href={partner.link} />
         </Col>
       )
     })
@@ -74,7 +80,7 @@ export default class Partners extends React.Component {
       <section id="partners">
         <SectionHeading prefix="These are our">PARTNERS</SectionHeading>
 
-        <CategoryHeading>Game Company</CategoryHeading>
+        <CategoryHeading>Game Companies</CategoryHeading>
         <Row>
           { partners }
         </Row>

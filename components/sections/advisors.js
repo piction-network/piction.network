@@ -30,9 +30,11 @@ const Advisor = ({name, bio, comment, photo}) => (
     }
     .advisor__bio {
       color: var(--color-primary);
+      font-size: 0.8em;
     }
     .advisor__comment {
       color: var(--color-gray);
+      font-size: 0.9em;
     }
     .advisor__photo img {
       line-height: 0;

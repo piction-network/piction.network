@@ -27,7 +27,7 @@ export default ({selected}) => (
     ul {
       width: 100%;
       padding: 0;
-      height: 80px;
+      height: 64px;
       max-width: 1256px;
       margin: 0 auto;
       display: flex;

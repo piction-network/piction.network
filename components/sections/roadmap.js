@@ -14,24 +14,31 @@ const Milestone = ({time, title, side, children}) => (
     .milestone {
       position: relative;
       box-sizing: content-box;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
     }
 
     .milestone[data-side="left"] {
       width: 50%;
-      border-right: 2px solid var(--color-primary);
+      border-right: 2px solid #e1e1e1;
     }
 
     .milestone[data-side="right"] {
       margin-left: 50%;
       width: 50%;
-      border-left: 2px solid var(--color-primary);
+      border-left: 2px solid #e1e1e1;
     }
-
 
     .milestone__description {
       padding: 1em;
       box-shadow: var(--box-shadow);
-      border-radius: 1em;
+      border-radius: 8px;
+      font-size: 0.875em;
+    }
+    .milestone__description h4 {
+      color: var(--color-primary);
+      font-size: 1rem;
+      margin-top: 0;
     }
 
     [data-side="left"] .milestone__description {
@@ -43,14 +50,14 @@ const Milestone = ({time, title, side, children}) => (
     }
 
     .milestone__marker {
+      border: 8px solid white;
       color: var(--color-white);
-      width: 80px;
-      height: 80px;
+      width: 88px;
+      height: 88px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: var(--box-shadow);
       position: absolute;
       background-color: var(--color-primary);
       text-align: center;
@@ -71,15 +78,16 @@ const Milestone = ({time, title, side, children}) => (
         margin-left: 0;
         width: 100%;
         border-right: none;
-        border-left: 2px solid var(--color-primary);
+        border-left: 2px solid #e1e1e1;
       }
 
       .milestone[data-side="right"] {
         width: 100%;
         margin-left: 0;
-        border-left: 2px solid var(--color-primary);
+        border-left: 2px solid #e1e1e1;
       }
       .milestone__marker {
+        border: none;
         width: 50px;
         height: 50px;
         font-size: 0.8em;
