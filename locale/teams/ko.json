@@ -24,6 +24,16 @@
       }
     },
     {
+      "name": "Lee-on",
+      "title": "Chief Strategy Officer",
+      "photo": "/static/members/lee-on.jpg",
+      "career": {
+        "__html": "Chief Strategy Officer of Airbloc Protocol<br>Founder and Community Leader at CryptoMillennials"
+      },
+      "links": {
+      }
+    },
+    {
       "name": "Zhaoyan Jin",
       "title": "Chief Excutive Officer at Xinwusoft (Chinese Subsidiary)",
       "photo": "/static/members/wendyjin.png",
@@ -35,7 +45,7 @@
     },
     {
       "name": "Jenny Yoon",
-      "title": "Chief Strategy Officer / Lawyer",
+      "title": "Chief Marketing Officer / Lawyer",
       "photo": "/static/members/jennyyoon.png",
       "career": {
         "__html": "Law firm “We&Partners”, Founding partner attorney at Law<br>National assembly the State Affairs Committee, Secretary<br>Zhonglum W&D Law firm (Beijing, China)<br>SK Networks<br>LG Electronics"

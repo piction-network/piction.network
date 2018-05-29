@@ -38,9 +38,6 @@ export default ({selected}) => (
       margin-left: 1em;
       margin-right: 1em;
     }
-    li a {
-      text-decoration: none;
-    }
 
     @media (max-width: 768px) {
       nav {

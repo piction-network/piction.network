@@ -43,7 +43,10 @@ export default ({ locale, children }) => (
       margin: 0.67em 0;
     }
     a {
+      font-family: var(--font-family-body);
       background-color: transparent;
+      color: var(--color-black);
+      text-decoration: none;
     }
 
     b,
