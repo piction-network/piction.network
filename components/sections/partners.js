@@ -6,7 +6,8 @@ import partner_list from "../../locale/partners/en.json";
 const Partner = ({name, logo, href}) => (
   <div className="partner">
     <a href={href} target="_blank">
-      <h5>{name}</h5>
+      <img className="partner__logo" src={logo} />
+      <h5 className="partner__name">{name}</h5>
     </a>
     <style jsx>{`
     .partner {
@@ -14,6 +15,13 @@ const Partner = ({name, logo, href}) => (
       padding: 1em;
       background-color: var(--color-white);
       text-align: center;
+    }
+    .partner__logo {
+      width: 100%;
+      object-fit: contain;
+    }
+    .partner__name {
+      margin: 0;
     }
     `}</style>
   </div>
@@ -40,14 +48,14 @@ export default class Partners extends React.Component {
     const partners = partner_list.partners.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} href={partner.link} />
+          <Partner name={partner.name} href={partner.link} logo={partner.logo} />
         </Col>
       )
     })
     const contents_global = partner_list.global_content.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} href={partner.link} />
+          <Partner name={partner.name} href={partner.link} logo={partner.logo} />
         </Col>
       )
     })
@@ -55,15 +63,15 @@ export default class Partners extends React.Component {
     const contents_korea = partner_list.korea_content.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} href={partner.link} />
+          <Partner name={partner.name} href={partner.link} logo={partner.logo} />
         </Col>
       )
     })
 
     const governments = partner_list.governments.map((partner, index) => {
       return (
-        <Col lg={4} md={6} sm={6} key={index}>
-          <Partner name={partner.name} href={partner.link} />
+        <Col lg={3} md={6} sm={6} key={index}>
+          <Partner name={partner.name} href={partner.link} logo={partner.logo} />
         </Col>
       )
     })
@@ -71,7 +79,7 @@ export default class Partners extends React.Component {
     const others = partner_list.others.map((partner, index) => {
       return (
         <Col lg={3} md={6} sm={6} key={index}>
-          <Partner name={partner.name} href={partner.link} />
+          <Partner name={partner.name} href={partner.link} logo={partner.logo} />
         </Col>
       )
     })

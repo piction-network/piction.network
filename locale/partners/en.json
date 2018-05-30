@@ -2,244 +2,285 @@
   "partners": [
     {
       "name": "Smilegate Entertainment",
-      "link": "https://www.smilegate.com"
+      "link": "https://www.smilegate.com",
+      "logo": "/static/partners/logo_smilegate_enter.png"
     },
     {
       "name": "Smilegate Megaport",
-      "link": "http://mobile.smilegatemegaport.com"
+      "link": "http://mobile.smilegatemegaport.com",
+      "logo": "/static/partners/logo_smilegate_mega.png"
     },
     {
       "name": "Nexon",
-      "link": "http://company.nexon.com/"
+      "link": "http://company.nexon.com/",
+      "logo": "/static/partners/logo_nexon.png"
     },
     {
       "name": "Neople",
       "description": "Game developer of 'Dungeon & Fighters', Subsidiary of Nexon",
-      "link": "http://www.neople.co.kr/"
+      "link": "http://www.neople.co.kr/",
+      "logo": "/static/partners/logo_neople.png"
     },
     {
       "name": "Riot Games",
-      "link": "https://www.riotgames.com"
+      "link": "https://www.riotgames.com",
+      "logo": "/static/partners/logo_riot.png"
     },
     {
       "name": "Blizzard",
-      "link": "https://www.blizzard.com/"
+      "link": "https://www.blizzard.com/",
+      "logo": "/static/partners/logo_blizzard.png"
     },
     {
       "name": "Netmarble",
-      "link": "http://company.netmarble.com/"
+      "link": "http://company.netmarble.com/",
+      "logo": "/static/partners/logo_netmarble.png"
     },
     {
       "name": "Tencent Games",
-      "link": "http://company.netmarble.com/"
+      "link": "http://game.qq.com/",
+      "logo": "/static/partners/logo_tencent_g.png"
     },
     {
       "name": "NCsoft",
-      "link": "http://ncsoft.com/"
+      "link": "http://ncsoft.com/",
+      "logo": "/static/partners/logo_ncsoft.png"
     },
     {
       "name": "Neowiz",
-      "link": "http://www.neowiz.co.kr/"
+      "link": "http://www.neowiz.co.kr/",
+      "logo": "/static/partners/logo_neowiz.png"
     },
     {
       "name": "Supercell",
-      "link": "http://supercell.com/"
+      "link": "http://supercell.com/",
+      "logo": "/static/partners/logo_supercell.png"
     },
     {
-      "name": "X.D. Global Limited"
+      "name": "X.D. Global Limited",
+      "logo": "/static/partners/logo_xdglobal.png"
     },
     {
       "name": "Flero Games",
-      "link": "http://www.flerogames.com/"
+      "link": "http://www.flerogames.com/",
+      "logo": "/static/partners/logo_flero.png"
     },
     {
       "name": "PATI Games",
-      "link": "https://www.patigames.com/"
+      "link": "https://www.patigames.com/",
+      "logo": "/static/partners/logo_pati.png"
     },
     {
       "name": "XL Games",
-      "link": "https://www.xlgames.com/"
+      "link": "https://www.xlgames.com/",
+      "logo": "/static/partners/logo_xlgames.png"
     },
     {
       "name": "Buff Studio",
-      "link": "http://www.buffstudio.com/"
+      "link": "http://www.buffstudio.com/",
+      "logo": "/static/partners/logo_buff.png"
     },
     {
       "name": "Highbrow",
-      "link": "http://www.highbrow-inc.com/"
+      "link": "http://www.highbrow-inc.com/",
+      "logo": "/static/partners/logo_highbrow.png"
     },
     {
       "name": "Monster Planet",
-      "link": "https://www.monsterplanet.co.kr/"
+      "link": "https://www.monsterplanet.co.kr/",
+      "logo": "/static/partners/logo_monsterplanet.png"
     },
     {
       "name": "Super Awesome Inc.",
-      "link": "http://superawesome.co.kr/"
+      "link": "http://superawesome.co.kr/",
+      "logo": "/static/partners/logo_superawesome.png"
     }
   ],
   "global_content": [
     {
       "name": "Tencent Comic",
       "link": "http://comic.qq.com/",
-      "description": "Established on 21 March 2012, Tencent Comic is now China’s largest original and legitimate online animation platform. Originality is nurtured on the platform, bolstered by the core value of copyright and IP protection. Tencent Comic has established key connections and partnerships with outstanding global industry partners, such as Animation Comic Game China Group, Walt Disney, Shueisha, Bandai, Kadokawa and Kodansha. With a new business strategy advocated by the animation industry, Tencent Comic aspires to create compelling content and nurture star IP through the building of a robust eco-system."
+      "description": "Established on 21 March 2012, Tencent Comic is now China’s largest original and legitimate online animation platform. Originality is nurtured on the platform, bolstered by the core value of copyright and IP protection. Tencent Comic has established key connections and partnerships with outstanding global industry partners, such as Animation Comic Game China Group, Walt Disney, Shueisha, Bandai, Kadokawa and Kodansha. With a new business strategy advocated by the animation industry, Tencent Comic aspires to create compelling content and nurture star IP through the building of a robust eco-system.",
+      "logo": "/static/partners/logo_tencent_comic.png"
     },
     {
       "name": "Kuaikan manhua",
-      "link": "https://www.kuaikanmanhua.com/"
+      "link": "https://www.kuaikanmanhua.com/",
+      "logo": "/static/partners/logo_kuaikan.png"
     },
     {
       "name": "Oookbee",
-      "link": "http://www.ookbee.com/"
+      "link": "http://www.ookbee.com/",
+      "logo": "/static/partners/logo_ookbee.png"
+    },
+    {
+      "name": "Manhuadao",
+      "link": "http://www.manhuadao.cn/",
+      "logo": "/static/partners/logo_manhuadao.png"
+    },
+    {
+      "name": "Comicool",
+      "link": "http://www.comicool.cn/",
+      "logo": "/static/partners/logo_comicool.png"
     },
     {
       "name": "Tappytoon",
-      "link": "https://www.tappytoon.com/"
+      "link": "https://www.tappytoon.com/",
+      "logo": "/static/partners/logo_tappytoon.png"
     }
   ],
   "korea_content": [
     {
-      "name": "Naver Webtoon"
+      "name": "Naver Webtoon",
+      "link": "http://nstore.naver.com/comic/home.nhn",
+      "logo": "/static/partners/logo_naver.png"
     },
     {
       "name": "Kakaopage",
-      "link": "https://page.kakao.com/"
-    },
-    {
-      "name": "Daum Webtoon"
+      "link": "https://page.kakao.com/",
+      "logo": "/static/partners/logo_kakaopage.png"
     },
     {
       "name": "Lezhin Comics",
-      "link": "https://www.lezhin.com/"
+      "link": "https://www.lezhin.com/",
+      "logo": "/static/partners/logo_lezhin.png"
     },
     {
       "name": "Ridi Books",
-      "link": "https://ridibooks.com/"
+      "link": "https://ridibooks.com/",
+      "logo": "/static/partners/logo_ridi.png"
     },
     {
       "name": "Toptoon",
-      "link": "https://toptoon.com/"
+      "link": "https://toptoon.com/",
+      "logo": "/static/partners/logo_toptoon.png"
     },
     {
       "name": "Comica",
-      "link": "https://www.comica.com/"
-    },
-    {
-      "name": "Mr.Blue",
-      "link": "http://www.mrblue.com/"
-    },
-    {
-      "name": "Justoon",
-      "link": "https://www.justoon.co.kr/"
-    },
-    {
-      "name": "BOMTOON",
-      "link": "https://www.bomtoon.com/"
+      "link": "https://www.comica.com/",
+      "logo": "/static/partners/logo_comica.png"
     },
     {
       "name": "Tapas Media",
-      "link": "https://tapas.io/"
+      "link": "https://tapas.io/",
+      "logo": "/static/partners/logo_tapas.png"
     },
     {
       "name": "Daon Creative",
-      "link": "http://www.daoncreative.com/"
+      "link": "http://www.daoncreative.com/",
+      "logo": "/static/partners/logo_daon.png"
     },
     {
       "name": "Image Frame",
-      "link": "http://imageframe.kr/"
+      "link": "http://imageframe.kr/",
+      "logo": "/static/partners/logo_imageframe.png"
     },
     {
       "name": "U-jewel Media",
-      "link": "http://www.u-jewel.com/"
+      "link": "http://www.u-jewel.com/",
+      "logo": "/static/partners/logo_ujewel.png"
     },
     {
       "name": "Jaedam Media",
-      "link": "http://www.jaedam.com/"
+      "link": "http://www.jaedam.com/",
+      "logo": "/static/partners/logo_jaedam.png"
     },
     {
       "name": "Cogul Planet",
-      "link": "http://www.cogulplanet.com/"
+      "link": "http://www.cogulplanet.com/",
+      "logo": "/static/partners/logo_cogul.png"
     },
     {
       "name": "Afreeca TV",
-      "link": "http://www.afreecatv.com/"
+      "link": "http://www.afreecatv.com/",
+      "logo": "/static/partners/logo_afreecatv.png"
     },
     {
       "name": "KOCN",
-      "link": "http://kocn.co.kr/"
+      "link": "http://kocn.co.kr/",
+      "logo": "/static/partners/logo_kocn.png"
     },
     {
       "name": "Cream Media",
-      "link": "https://www.facebook.com/%ED%81%AC%EB%A6%BC%EB%AF%B8%EB%94%94%EC%96%B4-938145979660723/"
+      "link": "https://www.facebook.com/%ED%81%AC%EB%A6%BC%EB%AF%B8%EB%94%94%EC%96%B4-938145979660723/",
+      "logo": "/static/partners/logo_cream.png"
     },
     {
       "name": "SHINYOUNG MEDIA SERVICE,Inc.",
-      "link": "https://www.sybook.co.kr/"
+      "link": "https://www.sybook.co.kr/",
+      "logo": "/static/partners/logo_shinyoung.png"
     },
     {
       "name": "B-Books",
-      "link": "http://www.b-books.co.kr/"
+      "link": "http://www.b-books.co.kr/",
+      "logo": "/static/partners/logo_bbooks.png"
     },
     {
-      "name": "The CL Book"
-    },
-    {
-      "name": "Donga Media Group",
-      "link": "http://web.donga.com/damg"
+      "name": "The CL Book",
+      "logo": "/static/partners/logo_theclbook.png"
     },
     {
       "name": "1535 Studio",
-      "link": "http://www.1535inc.com/"
+      "link": "http://www.1535inc.com/",
+      "logo": "/static/partners/logo_1535.png"
     },
     {
       "name": "RaemongRaein Co., Ltd.",
-      "link": "http://www.raemongraein.co.kr/"
+      "link": "http://www.raemongraein.co.kr/",
+      "logo": "/static/partners/logo_raemongreain.png"
     },
     {
-      "name": "River Pictures"
+      "name": "River Pictures",
+      "logo": "/static/partners/logo_riverpictures.png"
     }
   ],
   "governments": [
     {
       "name": "KOMACON (Korea Manhwa Contents Agency)",
-      "link": "https://www.komacon.kr/komacon/"
-    },
-    {
-      "name": "The Korea Cartoonist Association",
-      "link": "http://www.cartoon.or.kr/"
+      "link": "https://www.komacon.kr/komacon/",
+      "logo": "/static/partners/logo_komacon.png"
     },
     {
       "name": "Webtoon Association",
-      "link": "http://wwebtoon.org/"
+      "link": "http://wwebtoon.org/",
+      "logo": "/static/partners/logo_webtoon_association.png"
     },
     {
       "name": "Korea Webtoon Industry Association",
-      "link": "http://www.kwia.or.kr/"
+      "link": "http://www.kwia.or.kr/",
+      "logo": "/static/partners/logo_kwia.png"
     },
     {
       "name": "Gwangju Information and Culture Industry Promotion agency",
-      "link": "http://www.gitct.kr/"
+      "link": "http://www.gitct.kr/",
+      "logo": "/static/partners/logo_gitct.png"
     },
     {
-      "name": "CHUNGKANG COLLEGE OF CULTURAL INDUSTRIES",
-      "link": "http://www.ck.ac.kr/"
+      "name": "Chungkang College of Cultural Industries",
+      "link": "http://www.ck.ac.kr/",
+      "logo": "/static/partners/logo_chungkang.png"
     }
   ],
   "others": [
     {
       "name": "IGAWorks",
-      "link": "http://igaworks.com/"
+      "link": "http://igaworks.com/",
+      "logo": "/static/partners/logo_igaworks.png"
     },
     {
       "name": "Buzzvil",
-      "link": "https://www.buzzvil.com/"
+      "link": "https://www.buzzvil.com/",
+      "logo": "/static/partners/logo_buzzvil.png"
     },
     {
       "name": "Wemakeprice",
-      "link": "http://www.wemakeprice.com/"
+      "link": "http://www.wemakeprice.com/",
+      "logo": "/static/partners/logo_wemakeprice.png"
     },
     {
       "name": "AKAMAI",
-      "link": "https://www.akamai.com/"
+      "link": "https://www.akamai.com/",
+      "logo": "static/partners/logo_akamai.png"
     }
   ]
 }
