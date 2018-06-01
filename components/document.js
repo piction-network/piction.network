@@ -26,7 +26,6 @@ export default ({ locale }) => (
       <BattleEntertainment />
       <Teams />
       <Advisors />
-      <Partners />
 
       <style jsx>{`
         .peoples {

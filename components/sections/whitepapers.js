@@ -4,7 +4,7 @@ import SectionDescription from "../SectionDescription";
 
 export default () => (
   <section id="whitepapers">
-    <SectionHeading>Fundamental Documents</SectionHeading>
+    <SectionHeading>Foundational Documents</SectionHeading>
     <SectionDescription>
       To help you gain a deeper understanding of Piction Network, our team has prepared 3 papers for your review.
     </SectionDescription>

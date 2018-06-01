@@ -70,7 +70,6 @@ export default class Teams extends React.Component {
           { list }
         </Row>
         <div className="teams__collapse">
-          <div className="teams__divider" />
           <button onClick={this.expandTeams}>{ this.state.collapsed ? "See more" : "See less" }</button>
         </div>
         <style jsx>{`
@@ -78,14 +77,6 @@ export default class Teams extends React.Component {
         .teams__collapse {
           text-align: center;
           position: relative;
-        }
-        .teams__divider {
-          width: 100%;
-          margin: 0 auto;
-          border-top: 1px solid #0045e3;
-          position: absolute;
-          top: 1.8em;
-          z-index: -1;
         }
         .teams__collapse button {
           appearance: none;
