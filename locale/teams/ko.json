@@ -262,6 +262,38 @@
       },
       "links": {
       }
+    },
+    {
+      "name": "Peng Zheng",
+      "title": "Operations Manager",
+      "photo": "/static/members/pengzheng.jpg",
+      "career": {
+        "__html": "Project Operation Manager at Tiancity"
+      }
+    },
+    {
+      "name": "Cherry Guo",
+      "title": "Content Producer",
+      "photo": "/static/members/cherryguo.jpg",
+      "career": {
+        "__html": "Content Producer at 漫动作&银河数娱"
+      }
+    },
+    {
+      "name": "Tracy Fan",
+      "title": "IP Business Manager",
+      "photo": "/static/members/tracyfan.jpg",
+      "career": {
+        "__html": "Corporate Planning Officer at Hyundai"
+      }
+    },
+    {
+      "name": "Cong Zhu",
+      "title": "Design Manager",
+      "photo": "/static/members/congzhu.jpg",
+      "career": {
+        "__html": ""
+      }
     }
   ]
 }

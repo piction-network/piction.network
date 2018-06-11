@@ -2,22 +2,27 @@
   "investors": [
     {
       "name": "Smilegate Investment",
-      "description": "VC of Smilegate, game developer of 'CrossFire'- global No.1 FPS, the most played FPS with over 650M"
+      "description": "Smilegate Investments is one of Korea's leading venture capital fund that focuses on investing in promising media, gaming and entertainment related projects. They are behind CROSSFIRE, the most played FPS with over 650m users."
     },
     {
-      "name": "Industrial Bank of Korea"
+      "name": "Industrial Bank of Korea",
+      "description": "Industrial Bank of Korea is owned by the Korean government with over 200 billion USD assets under management."
     },
     {
-      "name": "KTB Networks"
+      "name": "KTB Networks",
+      "description": "KTB network is one of Korea's oldest venture capital fund."
     },
     {
-      "name": "IMM Investment"
+      "name": "IMM Investment",
+      "description": "IMM is one of Korea's leading venture capital fund that has a total asset under management of 2 billion USD."
     },
     {
-      "name": "Union Investment"
+      "name": "Union Investment",
+      "description": "Union Investment Partners is one of Korea's leading venture capital firm with a portfolio that is focused on films, animations, games, TV dramas and live conc"
     },
     {
-      "name": "Angang Venture Investment"
+      "name": "Angang Venture Investment",
+      "description": "Angang investment is a venture capital fund that  specializes in investing in software, medical equipment, media broadcasting and entertainment related projects."
     }
   ]
 }
