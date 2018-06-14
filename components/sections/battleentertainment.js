@@ -33,20 +33,25 @@ const Investor = ({name, ci, href, children}) => (
     <a href={href}>
       <img src={ci} />
     </a>
-    <small>{children}</small>
+    <p>{children}</p>
     <style jsx>{`
     text-align: center;
 
     img {
       height: 100px;
-      width: 100px;
+      width: 150px;
       object-fit: contain;
       display: block;
       margin: 0 auto;
     }
-
-    small {
-      display: none;
+    p {
+      color: var(--color-gray);
+    }
+    @media (max-width: 768px) {
+      img {
+        width: 130px;
+        height: 80px;
+      }
     }
     `}</style>
   </div>
@@ -100,33 +105,35 @@ export default () => (
         <Col lg={12}>
           <Number prefix="Raised Over" number="9,000,000+ USD" label="from Seed funding, Series A and Series B equity funding from leading institutions that trust us:" />
         </Col>
-        <Col lg={2} md={6}>
+        <Col lg={4} md={12}>
           <Investor name="Smilegate Investment" ci="/static/investors/smilegate-investment.jpg" href="http://www.smilegateinvestment.com/">
-            VC of Smilegate, game developer of 'CrossFire'- global No.1 FPS, the most played FPS with over 650M
+            Smilegate Investments is one of Korea's leading venture capital fund that focuses on investing in promising media, gaming and entertainment related projects. They are behind CROSSFIRE, the most played FPS with over 650m users.
           </Investor>
         </Col>
-        <Col lg={2} md={6}>
+        <Col lg={4} md={12}>
           <Investor name="Industrial Bank of Korea" ci="/static/investors/ibk.jpg" href="https://www.ibk.co.kr/">
-            2nd largest government-run bank in Korea
+            Industrial Bank of Korea is owned by the Korean government with over 200 billion USD assets under management.
           </Investor>
         </Col>
-        <Col lg={2} md={6}>
+        <Col lg={4} md={12}>
           <Investor name="KTB Networks" ci="/static/investors/ktb.png" href="http://www.ktbnetwork.com/">
-            The 1st Korean Venture Capital, established in 1981, AUM 60M USD
+            KTB Networks is one of Korea's oldest venture capital fund.
           </Investor>
         </Col>
-        <Col lg={2} md={6}>
+        <Col lg={4} md={12}>
           <Investor name="IMM Investment" ci="/static/investors/imm.jpg" href="http://imm.co.kr/">
-            Korean Top Venture Capital, AUM 2,000M
+            IMM is one of Korea's leading venture capital fund that has a total asset under management of 2 billion USD.
           </Investor>
         </Col>
-        <Col lg={2} md={6}>
+        <Col lg={4} md={12}>
           <Investor name="Union Investment" ci="/static/investors/union.jpg" href="http://www.unionip.net/">
-            Korean Top Venture Capital in the field of contents including movie, TV drama
+            Union Investment Partners is one of Korea's leading venture capital firm with a portfolio that is focused on films, animations, games, TV dramas and live concerts.
           </Investor>
         </Col>
-        <Col lg={2} md={6}>
-          <Investor name="Angang Venture Investment" ci="/static/investors/angang.png" />
+        <Col lg={4} md={12}>
+          <Investor name="Angang Venture Investment" ci="/static/investors/angang.png">
+            Angang investment is a venture capital fund that specializes in investing in software, medical equipment, media broadcasting and entertainment related projects.
+          </Investor>
         </Col>
       </Row>
       <style jsx>{`

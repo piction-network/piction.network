@@ -6,7 +6,7 @@ export default () => (
   <section id="features">
     <SectionHeading>Piction Network's Features</SectionHeading>
     <Row>
-      <Col lg={12}>
+      <Col lg={4} md={12}>
         <h4>Decentralized Digital Contents Platform</h4>
         <ul>
           <li>Returns full ownership to artists and grants artists freedom to decide on monetization models.</li>
@@ -15,7 +15,7 @@ export default () => (
         </ul>
       </Col>
 
-      <Col lg={12}>
+      <Col lg={4} md={12}>
         <h4>Support by Community</h4>
         <ul>
           <li>
@@ -24,7 +24,7 @@ export default () => (
         </ul>
       </Col>
 
-      <Col lg={12}>
+      <Col lg={4} md={12}>
         <h4>Greater Ancillary Support for Artists</h4>
         <ul>
           <li>
