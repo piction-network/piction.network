@@ -125,7 +125,7 @@ export default () => (
     <ul>
       <li>
         <Milestone time="2018 Q3" title="Test net release" side="left">
-          The public test network of the Piction ecosystem will be launched. The consistency of basic transactions, reliability of supporter smart contracts, and prevention of attacks will be tested and verified to evaluate the credibility of the ecosystem
+          The public test net of the Piction ecosystem will be launched. The consistency of basic transactions, reliability of supporter smart contracts, and prevention of attacks will be tested and verified to evaluate the credibility of the ecosystem
         </Milestone>
       </li>
       <li>

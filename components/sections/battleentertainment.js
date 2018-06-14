@@ -64,7 +64,7 @@ export default () => (
     <SectionDescription>
       <img src="static/battleent.svg" />
       <p>
-        Piction Network is led by <a href="https://www.battleent.com">Battle Entertainment</a> - a leading digital contents production and distribution platform from Korea and China with the experience, industry insights and trust from leading institutions.
+        Piction Protocol is led by <a href="https://www.battleent.com">Battle Entertainment</a> - a leading digital contents production and distribution platform from Korea and China with the experience, industry insights and trust from leading institutions.
       </p>
       <style jsx>{`
         color: var(--color-gray);

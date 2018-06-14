@@ -4,7 +4,7 @@ import SectionDescription from "../SectionDescription";
 
 export default () => (
   <section id="features">
-    <SectionHeading>Piction Network's Features</SectionHeading>
+    <SectionHeading>Piction Protocol's Features</SectionHeading>
     <Row>
       <Col lg={4} md={12}>
         <h4>Decentralized Digital Contents Platform</h4>
@@ -19,7 +19,7 @@ export default () => (
         <h4>Support by Community</h4>
         <ul>
           <li>
-            Artists require a stable production cost to eliminate the economic uncertainty in the production of their work. In Piction Network, community members are able to safely support into budding artists using PXLP Tokens and receive a cut of the production’s profits.
+            Artists require a stable production cost to eliminate the economic uncertainty in the production of their work. In Piction Protocol, community members are able to safely support into budding artists using Tokens and receive a cut of the production’s profits.
           </li>
         </ul>
       </Col>
@@ -28,7 +28,7 @@ export default () => (
         <h4>Greater Ancillary Support for Artists</h4>
         <ul>
           <li>
-            Piction Network will help artists to leverage the power of the community. When supporters of an artist helps in marketing and outreach beyond Piction Network and when these efforts convert into sales for the artist, these supporters would be rewarded with PXLP Tokens.
+            Piction Protocol will help artists to leverage the power of the community. When supporters of an artist helps in marketing and outreach beyond Piction Protocol and when these efforts convert into sales for the artist, these supporters would be rewarded with Tokens.
           </li>
         </ul>
       </Col>
