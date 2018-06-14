@@ -5,8 +5,8 @@ export default ({selected}) => (
     <ul>
       <li className="logo"><img src="/static/logo.png" /></li>
       <li><a href="#teams">Team</a></li>
-      <li><a href="#advisors">Advisors</a></li>
       <li><a href="#partners">Partners</a></li>
+      <li><a href="#advisors">Advisors</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#roadmap">Roadmap</a></li>
       <li><a href="#whitepapers">Whitepapers</a></li>

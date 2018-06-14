@@ -3,17 +3,21 @@ import SectionHeading from "../SectionHeading";
 
 const EcosystemPartner = ({name, logo, children}) => (
   <div className="ecosystem-partner">
-    <img src={logo} />
-    <h2>{name}</h2>
-    <div>{children}</div>
+    <img src={logo} className="ecosystem-partner__logo" />
+    <h2 className="ecosystem-partner__name">{name}</h2>
+    <div className="ecosystem-partner__description">{children}</div>
     <style jsx>{`
     text-align: center;
+    .ecosystem-partner__description {
+      font-size: 14px;
+      color: var(--color-light-gray);
+    }
     `}</style>
   </div>
 )
 
 export default () => (
-  <section id="ecosystem-partners">
+  <section id="partners">
     <SectionHeading prefix="These are our">ECOSYSTEM PARTNERS</SectionHeading>
 
     <Row>

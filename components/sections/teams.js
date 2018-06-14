@@ -33,7 +33,7 @@ const Member = ({member}) => (
       }
       .member__career {
         font-size: 12px;
-        color: #707070;
+        color: var(--color-light-gray);
       }
     `}</style>
   </div>

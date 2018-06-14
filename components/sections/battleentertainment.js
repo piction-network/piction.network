@@ -45,7 +45,8 @@ const Investor = ({name, ci, href, children}) => (
       margin: 0 auto;
     }
     p {
-      color: var(--color-gray);
+      font-size: 14px;
+      color: var(--color-light-gray);
     }
     @media (max-width: 768px) {
       img {

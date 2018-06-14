@@ -15,6 +15,7 @@ export default ({ locale, children }) => (
       --color-secondary: #ff793f;
       --color-black: #222222;
       --color-gray: #444444;
+      --color-light-gray: #707070;
       --color-white: #FFFFFF;
       --box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(0, 0, 0, 0.08);
       --font-family-title: "Poppins", 'Apple SD Gothic Neo', "Nanum Gothic", sans-serif;
