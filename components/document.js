@@ -25,6 +25,7 @@ export default ({ locale }) => (
     <div className="peoples page">
       <BattleEntertainment />
       <Teams />
+      <EcosystemPartners />
       <Advisors />
 
       <style jsx>{`
