@@ -31,7 +31,7 @@ export default () => (
           <img src="/static/img-onepager.png" />
           <h3>One-pager</h3>
           <ul>
-            <li><a className="btn" href="/static/docs/piction-onepager-20180515.pdf" target="_blank">English</a></li>
+            <li><a className="btn" href="/static/docs/piction-onepager-20180614.pdf" target="_blank">English</a></li>
           </ul>
         </div>
       </Col>
