@@ -14,8 +14,7 @@ export default () => (
           <img src="/static/img-whitepaper.png" />
           <h3>Whitepaper</h3>
           <ul>
-            <li><a className="btn" href="https://docs.google.com/document/d/1UC7GOFkv56_THFZset4QXlOmaGnhFRvufEiU3pDyBzc/edit?usp=sharing" target="_blank">Korean</a></li>
-            <li><a className="btn" href="https://docs.google.com/document/d/1LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing" target="_blank">English</a></li>
+            <li><a className="btn" href="https://docs.google.com/document/d/2LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing" target="_blank">English</a></li>
           </ul>
         </div>
       </Col>
