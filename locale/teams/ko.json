@@ -242,6 +242,16 @@
       }
     },
     {
+      "name": "Sanghyun Lee",
+      "title": "Content Producer",
+      "photo": "/static/members/sanghyunlee.jpg",
+      "career": {
+        "__html": "School of Animation, Hongik University<br>Published in CartoonChat, '못난이주의보'<br>Published in Comica, '크로노스'<br>Illustratioin in JTBC Newsroom<br>Animation 'TV 도서관에 가다', National Assembly TV"
+      },
+      "links": {
+      }
+    },
+    {
       "name": "Peng Zheng",
       "title": "Operations Manager",
       "photo": "/static/members/pengzheng.jpg",
