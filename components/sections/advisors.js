@@ -4,59 +4,62 @@ import SectionHeading from "../SectionHeading";
 
 const Advisor = ({name, bio, comment, photo}) => (
   <div className="advisor">
-    <div className="advisor__photo">
-      <img src={photo} />
-    </div>
     <div className="advisor__info">
-      <h6 className="advisor__name">{name}</h6>
-      <p className="advisor__bio" dangerouslySetInnerHTML={bio} />
-      <p className="advisor__comment" dangerouslySetInnerHTML={comment} />
+      <img className="advisor__photo" src={photo} />
+      <div className="advisor__profile">
+        <h6 className="advisor__name">{name}</h6>
+        <p className="advisor__bio" dangerouslySetInnerHTML={bio} />
+      </div>
     </div>
+    <p className="advisor__testimony" dangerouslySetInnerHTML={comment} />
+
     <style jsx>{`
     .advisor {
-      display: flex;
-      flex-grow: 1;
-      margin-bottom: 2em;
-      line-height: 0;
+      padding: 1em;
+      margin-bottom: 3em;
     }
     .advisor__info {
-      flex-grow: 1;
-      margin-left: 2em;
-      line-height: 1.5;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1em;
     }
-    .advisor__name {
-      font-size: 22px;
-      margin: 0.25em 0;
-    }
-    .advisor__bio {
-      color: var(--color-primary);
-      font-size: 0.8em;
-    }
-    .advisor__comment {
-      color: var(--color-gray);
-      font-size: 0.9em;
-    }
-    .advisor__photo img {
+
+    .advisor__photo {
       line-height: 0;
-      margin: 0 auto;
       border-radius: 50%;
-      width: 164px;
-      height: 164px;
+      width: 100px;
+      height: 100px;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(0, 0, 0, 0.08);
       filter: grayscale(100%);
     }
 
+    .advisor__profile {
+      margin-left: 1em;
+    }
+
+    .advisor__name {
+      font-size: 1.1em;
+      margin: 0.25em 0;
+    }
+    .advisor__bio {
+      color: var(--color-primary);
+      font-size: 0.7em;
+      margin: 0;
+    }
+    .advisor__testimony {
+      color: var(--color-gray);
+      font-size: 0.9em;
+    }
     @media (max-width: 640px) {
       .advisor {
-        flex-direction: column;
-        text-align: center;
+        margin-bottom: 2em;
       }
       .advisor__info {
         margin-left: 0;
       }
-      .advisor__photo img {
-        width: 130px;
-        height: 130px;
+      .advisor__photo {
+        width: 100px;
+        height: 100px;
       }
     }
 
@@ -68,7 +71,7 @@ export default class Advisors extends React.Component {
   render() {
     const list = locale.advisors.map((advisor, index) => {
       return (
-        <Col lg={6} md={12} sm={12} key={index}>
+        <Col lg={4} md={12} sm={12} key={index}>
           <Advisor name={advisor.name} bio={advisor.bio} photo={advisor.photo} comment={advisor.comment} />
         </Col>
       )

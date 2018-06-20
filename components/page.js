@@ -130,7 +130,6 @@ export default ({ locale, children }) => (
     }
 
     section {
-      margin-top: 6em;
       padding-top: 90px;
     }
     .page {

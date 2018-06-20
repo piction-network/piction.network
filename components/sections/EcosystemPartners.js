@@ -8,8 +8,11 @@ const EcosystemPartner = ({name, logo, children}) => (
     <div className="ecosystem-partner__description">{children}</div>
     <style jsx>{`
     text-align: center;
+    .ecosystem-partner__logo {
+      height: 157px;
+    }
     .ecosystem-partner__description {
-      font-size: 14px;
+      font-size: 0.7em;
       color: var(--color-light-gray);
     }
     `}</style>
@@ -22,13 +25,19 @@ export default () => (
 
     <Row>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="AIRBLOC" logo="static/ecosystem-partners/logo_airbloc.png" src="https://airbloc.org/">
-          AIRBLOC is a decentralized personal data protocol where individuals would be able to monetize their data, and advertisers would be able to buy these data to conduct targeted marketing campaigns for higher ROIs.
+        <EcosystemPartner name="Smilegate Stove" logo="static/ecosystem-partners/logo_smilegatestove.png" src="http://sandboxnetwork.net/">
+          Smilegate Stove is the game platform development arm of Smilegate which has grown into a globally renowned company boosted by its success of its FPS game ‘Crossfire’. Smilegate Stove provides platform services where game users can share, experience and buy various contents that they have created. This platform is operated as a C2C(Consumer to Consumer) platform enabling active two-way transactions between the users.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="AIRBLOC" logo="static/ecosystem-partners/logo_airbloc.jpg" src="https://airbloc.org/">
+          Airbloc is a decentralized personal data protocol where individuals would be able to monetize their data, and advertisers would be able to buy these data to conduct targeted marketing campaigns for higher ROIs.
+ To grow the user base in Piction Network, we will be leveraging Airbloc Protocol’s data marketplace to purchase insightful data to discover and target customer segments that are interested in digital contents.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Flitto" logo="static/ecosystem-partners/logo_flitto.png" src="https://www.flitto.com/">
-          Flitto is crowdsourced translation. They have more than 8.5M gloabl users and 3M active translators.
+          Flitto is a global crowdsourced translation agency with more than 8.5M global users and 3M active translators over 173 countries that can translate 23 languages. Piction Network has a full contractual partnership with Flitto. Flitto's existing base of translators can be part of Piction Network’s crowdsourced translators.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>

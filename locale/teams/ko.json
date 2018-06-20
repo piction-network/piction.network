@@ -148,18 +148,6 @@
       }
     },
     {
-      "name": "Seongwon Bang",
-      "title": "Software Engineer",
-      "photo": "/static/members/swbang.jpg",
-      "career": {
-        "__html": "Android developer, Lab6k<br>Seoul National Univ. Computer Science Engineering"
-      },
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/makesource/",
-        "github": "https://github.com/makesource"
-      }
-    },
-    {
       "name": "Dohyun Ahn",
       "title": "Software Engineer",
       "photo": "/static/members/dhahn.jpg",
@@ -221,16 +209,6 @@
       },
       "links": {
         "linkedin": "https://www.linkedin.com/in/seolhee-lee-115785164/"
-      }
-    },
-    {
-      "name": "Seule Koo",
-      "title": "Content Producer",
-      "photo": "/static/members/sekoo.jpg",
-      "career": {
-        "__html": "Project Manager at SunjinSM<br>Gyeonggi College of Science and Technology. Department of Precision Mechanical Engineering"
-      },
-      "links": {
       }
     },
     {

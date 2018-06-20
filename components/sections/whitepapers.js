@@ -6,40 +6,15 @@ export default () => (
   <section id="whitepapers">
     <SectionHeading>Foundational Documents</SectionHeading>
     <SectionDescription>
-      To help you gain a deeper understanding of Piction Network, our team has prepared 3 papers for your review.
+      Coming soon
+      {/* To help you gain a deeper understanding of Piction Network, our team has prepared 3 papers for your review. */}
     </SectionDescription>
-    <Row>
-      <Col sm={12} md={6} lg={4}>
-        <div className="center">
-          <img src="/static/img-whitepaper.png" />
-          <h3>Whitepaper</h3>
-          <ul>
-            <li><a className="btn" href="https://docs.google.com/document/d/2LSoXNBz_1tKlgFyb5Tv-75keYZHqB7ZU-OhC9YF-6NU/edit?usp=sharing" target="_blank">English</a></li>
-          </ul>
-        </div>
-      </Col>
-      <Col sm={12} md={6} lg={4}>
-        <div className="center">
-          <img src="/static/img-whitepaper.png" />
-          <h3>Token economy Whitepaper</h3>
-          <p>To be announced</p>
-        </div>
-      </Col>
-      <Col sm={12} md={6} lg={4}>
-        <div className="center">
-          <img src="/static/img-onepager.png" />
-          <h3>One-pager</h3>
-          <ul>
-            <li><a className="btn" href="/static/docs/piction-onepager-20180614.pdf" target="_blank">English</a></li>
-          </ul>
-        </div>
-      </Col>
-    </Row>
     <style jsx>{`
     #whitepapers {
       background-color: #f8f8f8;
       padding: 1em;
       padding-top: 80px;
+      padding-bottom: 40px;
     }
     .center {
       text-align: center;

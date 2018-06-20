@@ -33,7 +33,7 @@ export default ({sm, md, lg, children}) => (
         flex-basis: 16.666666667%;
         max-width: 16.666666667%;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 980px) {
         .col-md-12 {
           box-sizing: border-box;
           flex: 0 0 auto;

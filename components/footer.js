@@ -11,11 +11,12 @@ export default ({ contact }) => (
     </div>
 
     <div className="footer__copyright">
-      &copy; 2018 Battle Entertainment. All rights reserved
+      &copy; 2018 Piction Protocol. All rights reserved
     </div>
     <style jsx>{`
       footer {
         text-align: center;
+        padding-top: 80px;
         padding-bottom: 20px;
         background-image: url("/static/img-background.png");
         background-repeat: no-repeat;

@@ -21,6 +21,16 @@
       }
     },
     {
+      "name": "Richard Yun",
+      "photo": "/static/advisors/richard.jpg",
+      "bio": {
+        "__html": "COO, Coinplug<br>Co-founder, Metadium"
+      },
+      "comment": {
+        "__html": "Adoption and ecosystem sustainability are key factors for success for any blockchain project. This can only be achieved through longstanding industry experience, insights, and technical expertise. Piction Protocol, led by Battle Entertainment has deep industry connections and insights to perennial problems within the traditional digital contents industry. I am confident that with their experience and high competence, they can tailor appropriate blockchain-related solutions to turn their vision into a reality."
+      }
+    },
+    {
       "name": "Seunghwan Yeo",
       "photo": "/static/advisors/shyeo.jpg",
       "bio": {
@@ -34,7 +44,7 @@
       "name": "Shen Rong",
       "photo": "/static/advisors/shenrong.jpg",
       "bio": {
-        "__html": "Member of the committee, China Literature and Art Critics Association<br>Chairman, China Web Literature Writer's Village<br>Vice Chairman, Zhejiang Sheng Literature Creation Committee <br>Vice Chairman, Zhejiang Sheng Web Literature Writer Association"
+        "__html": "Member of the committee, China Literature and Art Critics Association<br>Chairman, China Web Literature Writer's Village"
       },
       "comment": {
         "__html": "In just a few years, we have seen the rise of extractive monopolies in the digital contents industry. The high fees and barriers to entry crowd out aspiring artists who wish to pursue their dreams and career in the contents industry. What we are seeing today is an unfortunate reality where even promising artists second-guess their decisions to enter the contents industry. This is not right and something that should not have even happened. Piction Protocol, undergirded by blockchain technology seeks to return power to these artists, and in the long term, allow the digital contents industry to once again flourish."

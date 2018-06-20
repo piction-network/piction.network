@@ -148,6 +148,7 @@ export default () => (
     #roadmap {
       margin-left: auto;
       margin-right: auto;
+      padding-bottom: 3em;
     }
     ul {
       list-style: none;
