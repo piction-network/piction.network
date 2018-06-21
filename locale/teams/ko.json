@@ -160,6 +160,18 @@
       }
     },
     {
+      "name": "Hongsu Jung",
+      "title": "Marketing Strategy Director",
+      "photo": "/static/members/hsjung.jpg",
+      "career": {
+        "__html": "Contents Sales Manager, Game magazine Thisisgame.com & Playforum<br>E-sports Business Manager at Gretech<br>Director at Comica<br>Graduated Economics , Choong-ang Univ."
+      },
+      "links": {
+        "linkedin": "",
+        "github": ""
+      }
+    },
+    {
       "name": "Rakyoung Min",
       "title": "Product Manager",
       "photo": "/static/members/rkmin.jpg",
