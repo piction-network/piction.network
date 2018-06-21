@@ -28,7 +28,7 @@ export default () => (
         <h4>Greater Ancillary Support for Artists</h4>
         <ul>
           <li>
-            Piction Protocol will help artists to leverage the power of the community. When supporters of an artist helps in marketing and outreach beyond Piction Protocol and when these efforts convert into sales for the artist, these supporters would be rewarded with Tokens.
+            Through token economic incentives, Piction Protocol will help artists to leverage the power of the community. When supporters of an artist helps in marketing, translation and outreach beyond Piction Protocol to overseas markets and when these efforts convert into sales for the artist, these supporters would be rewarded with PXL Tokens.
           </li>
         </ul>
       </Col>
