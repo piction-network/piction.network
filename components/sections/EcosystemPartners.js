@@ -27,8 +27,14 @@ export default () => (
 
     <Row>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="Smilegate Stove" logo="static/ecosystem-partners/logo_smilegatestove.png" href="http://sandboxnetwork.net/">
+        <EcosystemPartner name="Smilegate Stove" logo="static/ecosystem-partners/logo_smilegatestove.png" href="http://www.onstove.com/">
           Smilegate Stove is the game platform development arm of Smilegate which has grown into a globally renowned company boosted by its success of its FPS game ‘Crossfire’. Smilegate Stove provides platform services where game users can share, experience and buy various contents that they have created. Smilegate Stove will be a content distributor by integrating Piction Protocol's SDK to allow Smilegate Stove to feature Piction's digital contents on their own platform.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="Maxim Comics" logo="static/ecosystem-partners/logo_maximcomics.png" href="http://comics.maximkorea.net">
+          Maxim Comics is a subsidiary of Maxim Korea - one of the leading men’s magazine in Korea that has an annual publication of 1.5 million magazines a year. Maxim Comics publishes comics for mature audiences, primarily targeting male demographic segments. 
+          Maxim Comics will be one of the contents distributor in Piction’s ecosystem and help to bring on board more of their existing use base to Piction Network.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>

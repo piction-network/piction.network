@@ -36,7 +36,7 @@
     },
     {
       "name": "Zhaoyan Jin",
-      "title": "Chief Excutive Officer at Xinwusoft (Chinese Subsidiary)",
+      "title": "Chief Executive Officer at Xinwusoft (Chinese Subsidiary)",
       "photo": "/static/members/wendyjin.png",
       "career": {
         "__html": "CEO at Moyou Games & Mobile Factory<br>Chief of Business Development at Shanghai Posts & Telecommunications Technology<br>University of Shanghai for Science and Technology"
@@ -49,7 +49,7 @@
       "title": "Chief Marketing Officer / Lawyer",
       "photo": "/static/members/jennyyoon.png",
       "career": {
-        "__html": "Law firm “We&Partners”, Founding partner attorney at Law<br>National assembly the State Affairs Committee, Secretary<br>Zhonglum W&D Law firm (Beijing, China)<br>SK Networks<br>LG Electronics"
+        "__html": "Founding Partner & Attorney at Law, Law firm “We&Partners”<br>Secretary, State Affairs Committee National Assembly<br>Zhonglum W&D Law firm (Beijing, China)<br>SK Networks<br>LG Electronics"
       },
       "links": {
       }
@@ -59,7 +59,7 @@
       "title": "Chief Content Officer",
       "photo": "/static/members/jmlee.jpg",
       "career": {
-        "__html": "A vice-president, Comica Entertainment<br>Lecture, Hong-Ik Univ. Aniamtion<br>Team Leader, Nexon Korea / Project : FIFA Online 3, Kartrider, Crazyarcade etc..<br>Leader of the part, Neople(A Nexon Company) / Project : Dungeon & Fighter, Cyphers<br>Hong-Ik Univ. Graduate School, Animation"
+        "__html": "Vice-president, Comica Entertainment<br>Lecture, Hong-Ik Univ. Aniamtion<br>Team Leader, Nexon Korea / Project : FIFA Online 3, Kartrider, Crazyarcade etc..<br>Leader of the part, Neople(A Nexon Company) / Project : Dungeon & Fighter, Cyphers<br>Hong-Ik Univ. Graduate School, Animation"
       },
       "links": {
         "linkedin": "https://www.linkedin.com/in/jongmok-lee-0b6840a9/"
@@ -78,7 +78,7 @@
     },
     {
       "name": "Sungki Kwon",
-      "title": "Lead Software Engineer",
+      "title": "Blockchain Developer & Lead Software Engineer",
       "photo": "/static/members/skkwon.jpg",
       "career": {
         "__html": "Project Leader at Zeein Studio, ITVMG"
@@ -101,7 +101,7 @@
     },
     {
       "name": "Dongmyung Byun",
-      "title": "Software Engineer",
+      "title": "Blockchain Developer & Android Software Engineer",
       "photo": "/static/members/dmbyun.jpg",
       "career": {
         "__html": "Backend Engineer at Twolinecode(Partner of Samsung Smart TV)<br>Android Developer at WRG(Samsung Android Native Camera App) with 8 years of Android experience<br>Gyeongnam Geochang Univ. Computer Information System"
@@ -113,7 +113,7 @@
     },
     {
       "name": "Junghoon Seo",
-      "title": "Software Engineer",
+      "title": "Blockchain Developer & iOS Software Engineer",
       "photo": "/static/members/jhseo.jpg",
       "career": {
         "__html": "Project Leader at Twolinecode, WRG, Neona<br>Korea National Open Univ. Computer Science"
@@ -125,7 +125,7 @@
     },
     {
       "name": "Chulsu Kim",
-      "title": "Data Engineer",
+      "title": "Blockchain Developer & Data Engineer",
       "photo": "/static/members/cskim.jpg",
       "career": {
         "__html": "Data Engineer at Interactivy<br>Backend Engineer at Twolinecode, WRG<br>Web Developer at CMSoft"
@@ -149,7 +149,7 @@
     },
     {
       "name": "Dohyun Ahn",
-      "title": "Software Engineer",
+      "title": "Frontend Engineer",
       "photo": "/static/members/dhahn.jpg",
       "career": {
         "__html": "Seoul Digitech High School"

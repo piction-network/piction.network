@@ -13,7 +13,7 @@ export default ({selected}) => (
     </ul>
     <style jsx>{`
     .logo img {
-      height: 40px;
+      height: 2.5em;
     }
     nav {
       border-top: 4px solid var(--color-primary);
@@ -28,7 +28,6 @@ export default ({selected}) => (
       width: 100%;
       padding: 0;
       height: 64px;
-      max-width: 1256px;
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -39,7 +38,7 @@ export default ({selected}) => (
       margin-right: 1em;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 48em) {
       nav {
         display: none;
       }
