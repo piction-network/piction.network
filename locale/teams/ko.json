@@ -234,6 +234,16 @@
       }
     },
     {
+      "name": "Junhong Lim",
+      "title": "Content Producer",
+      "photo": "/static/members/jhlim.jpg",
+      "career": {
+        "__html": "Published comics in BattleComics '신제별일'"
+      },
+      "links": {
+      }
+    },
+    {
       "name": "Yanlei Cui",
       "title": "Content Producer",
       "photo": "/static/members/ylcui.jpg",
@@ -258,7 +268,17 @@
       "title": "Content Producer",
       "photo": "/static/members/sanghyunlee.jpg",
       "career": {
-        "__html": "School of Animation, Hongik University<br>Published in CartoonChat, '못난이주의보'<br>Published in Comica, '크로노스'<br>Illustratioin in JTBC Newsroom<br>Animation 'TV 도서관에 가다', National Assembly TV"
+        "__html": "School of Animation, Hongik University<br>Published comics in CartoonChat, '못난이주의보'<br>Published comics in Comica, '크로노스'<br>Illustratioin in JTBC Newsroom<br>Animation 'TV 도서관에 가다', National Assembly TV"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Danyuong Heo",
+      "title": "Editor & Designer",
+      "photo": "/static/members/dyheo.jpg",
+      "career": {
+        "__html": "Producing & Editing Comicbook"
       },
       "links": {
       }
