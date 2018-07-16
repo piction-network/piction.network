@@ -6,12 +6,17 @@ export default ({ contact }) => (
 
     <div className="footer__contact">
       <ul>
-        <li><a href="mailto:contact@piction.network">contact@piction.network</a></li>
+        <li>
+          <a className="footer__telegram" href="https://t.me/pictionnetwork">Telegram Channel</a>
+        </li>
+        <li>
+          <a href="mailto:contact@piction.network">contact@piction.network</a>
+        </li>
       </ul>
     </div>
 
     <div className="footer__copyright">
-      &copy; 2018 Piction Protocol. All rights reserved
+      &copy; 2018 Piction Network. All rights reserved
     </div>
     <style jsx>{`
       footer {
@@ -45,6 +50,7 @@ export default ({ contact }) => (
       }
 
       .footer__contact {
+        margin-top: 80px;
         margin-bottom: 120px;
       }
 
@@ -60,6 +66,21 @@ export default ({ contact }) => (
       .footer__copyright {
         color: #444444;
         font-size: 14px;
+      }
+
+      footer .footer__telegram {
+        display: inline-block;
+        color: var(--color-white);
+        background-color: var(--color-primary);
+        padding: 1em 2em;
+        border-radius: 2em;
+        color: var(--color-white);
+        box-shadow: var(--box-shadow);
+        margin-bottom: 1em;
+      }
+
+      footer .footer__telegram:hover {
+        color: var(--color-white);
       }
     `}</style>
   </footer>

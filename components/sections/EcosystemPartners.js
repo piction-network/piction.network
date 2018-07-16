@@ -27,11 +27,6 @@ export default () => (
 
     <Row>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="Smilegate Stove" logo="static/ecosystem-partners/logo_smilegatestove.png" href="http://www.onstove.com/">
-          Smilegate Stove is the game platform development arm of Smilegate which has grown into a globally renowned company boosted by its success of its FPS game ‘Crossfire’. Smilegate Stove provides platform services where game users can share, experience and buy various contents that they have created. Smilegate Stove will be a content distributor by integrating Piction Protocol's SDK to allow Smilegate Stove to feature Piction's digital contents on their own platform.
-        </EcosystemPartner>
-      </Col>
-      <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Maxim Comics" logo="static/ecosystem-partners/logo_maximcomics.png" href="http://comics.maximkorea.net">
           Maxim Comics is a subsidiary of Maxim Korea - one of the leading men’s magazine in Korea that has an annual publication of 1.5 million magazines a year. Maxim Comics publishes comics for mature audiences, primarily targeting male demographic segments. 
           Maxim Comics will be one of the contents distributor in Piction’s ecosystem and help to bring on board more of their existing use base to Piction Network.
@@ -54,12 +49,17 @@ export default () => (
       </Col>
       <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Coinplug" logo="static/ecosystem-partners/logo_coinplug.png" href="https://www.coinplug.com/">
-          Coinplug is the world's 2nd, and Korea's 1st Blockchain Patent Holder - with a cumulative of 115 blockchain related patents in Korea and 46 international patents. It is founded by the finest engineers from both Silicon Valley and Korea, including Vitalik Buterin (Co-Founder of Ethereum) as a technical advisor. Coinplug has spearheaded an array of innovative blockchain solutions and has worked with many leading enterprises in Korea. Piction Protocol will be in close consultation with Coinplug to jointly develop the technical aspects in Piction Protocol.
+          Coinplug is the world's 2nd, and Korea's 1st Blockchain Patent Holder - with a cumulative of 115 blockchain related patents in Korea and 46 international patents. It is founded by the finest engineers from both Silicon Valley and Korea, including Vitalik Buterin (Co-Founder of Ethereum) as a technical advisor. Coinplug has spearheaded an array of innovative blockchain solutions and has worked with many leading enterprises in Korea. Piction Network will be in close consultation with Coinplug to jointly develop the technical aspects in Piction Network.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Metadium" logo="static/ecosystem-partners/logo_metadium.png" href="https://www.metadium.com/">
-          Metadium is the next-generation identity protocol layer of the internet powered by blockchain with "trustless trust". It supports a decentralized digital identity and acts as the robust heart of Metadium ecosystem to provide secure, next-generation identity. Piction Protocol will be integrating Metadium's identity verification SDK to provide KYC services to all participants in Piction Protocol.
+          Metadium is the next-generation identity protocol layer of the internet powered by blockchain with "trustless trust". It supports a decentralized digital identity and acts as the robust heart of Metadium ecosystem to provide secure, next-generation identity. Piction Network will be integrating Metadium's identity verification SDK to provide KYC services to all participants in Piction Network.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="B-Seed Partners" logo="static/ecosystem-partners/logo_bseed.png" href="https://www.coinplug.com/">
+          B-Seed Partners is a seed accelerator for fintech and blockchain technology companies. In the ever complex and rapidly evolving technology environment, B-Seed Partners provides companies with the necessary financial capital, legal advice as well as mentorship in strategy, operations, system development and IR.
         </EcosystemPartner>
       </Col>
     </Row>

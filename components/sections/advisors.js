@@ -31,6 +31,8 @@ const Advisor = ({name, bio, comment, photo}) => (
       height: 100px;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(0, 0, 0, 0.08);
       filter: grayscale(100%);
+      flex-grow: 0;
+      flex-shrink: 0;
     }
 
     .advisor__profile {

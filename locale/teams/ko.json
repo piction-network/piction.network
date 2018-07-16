@@ -24,19 +24,8 @@
       }
     },
     {
-      "name": "Lee-On",
-      "title": "Chief Strategy Officer",
-      "photo": "/static/members/lee-on.jpg",
-      "career": {
-        "__html": "Chief Strategy Officer of Airbloc Protocol<br>Founder and Community Leader at CryptoMillennials"
-      },
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/lee-on/"
-      }
-    },
-    {
       "name": "Zhaoyan Jin",
-      "title": "Chief Executive Officer at Xinwusoft (Chinese Subsidiary)",
+      "title": "Chief Strategy Officer",
       "photo": "/static/members/wendyjin.png",
       "career": {
         "__html": "CEO at Moyou Games & Mobile Factory<br>Chief of Business Development at Shanghai Posts & Telecommunications Technology<br>University of Shanghai for Science and Technology"
