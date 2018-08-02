@@ -1,6 +1,6 @@
 export default ({locale}) => (
   <div className="hero">
-    <img src="/static/logov.png" className="hero__logo" />
+    <img src="/static/logov.png" className="hero__logo" alt="Piction Network" />
     <p className="hero__message" dangerouslySetInnerHTML={locale.message} />
     <a className="hero__telegram" href="https://t.me/pictionnetwork">Telegram Channel</a>
     <style jsx>{`

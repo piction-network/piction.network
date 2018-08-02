@@ -4,7 +4,7 @@ import SectionHeading from "../SectionHeading";
 const EcosystemPartner = ({name, logo, href, children}) => (
   <div className="ecosystem-partner">
     <a href={href}>
-      <img src={logo} className="ecosystem-partner__logo" />
+      <img src={logo} className="ecosystem-partner__logo" alt={name} />
     </a>
     <h2 className="ecosystem-partner__name">{name}</h2>
     <div className="ecosystem-partner__description">{children}</div>
@@ -43,6 +43,11 @@ export default () => (
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="AfreecaTV" logo="static/ecosystem-partners/logo_afreecatv.png" href="http://www.afreecatv.com/">
+          AfreecaTV is a leading P2P technology-based video streaming service in Korea with a monthly active user base of 6M people. It has functions such as broadcasting, viewing, channel listing, live chatting, and discussion boards. The platform content ranges from TV broadcasts, live video game broadcasts, artist performances, and personal daily-life video blogs and shows for actresses and professional broadcast.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="SandBox Network" logo="static/ecosystem-partners/logo_sandbox.png" href="http://sandboxnetwork.net/">
           SandBox Network consists of a closely knitted group of digital entertainment enthusiasts and content creators that broadcast game and anime related contents. They have more than 100 youtube creators and a powerful community. The cumulative monthly view of their creation is more than 400M. Sandbox Network will be a content distributor and leverage these key opinion leaders to distribute digital contents and to promote Piction’s contents to their audiences.
         </EcosystemPartner>
@@ -55,11 +60,6 @@ export default () => (
       <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Metadium" logo="static/ecosystem-partners/logo_metadium.png" href="https://www.metadium.com/">
           Metadium is the next-generation identity protocol layer of the internet powered by blockchain with "trustless trust". It supports a decentralized digital identity and acts as the robust heart of Metadium ecosystem to provide secure, next-generation identity. Piction Network will be integrating Metadium's identity verification SDK to provide KYC services to all participants in Piction Network.
-        </EcosystemPartner>
-      </Col>
-      <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="B-Seed Partners" logo="static/ecosystem-partners/logo_bseed.png" href="https://www.coinplug.com/">
-          B-Seed Partners is a seed accelerator for fintech and blockchain technology companies. In the ever complex and rapidly evolving technology environment, B-Seed Partners provides companies with the necessary financial capital, legal advice as well as mentorship in strategy, operations, system development and IR.
         </EcosystemPartner>
       </Col>
     </Row>

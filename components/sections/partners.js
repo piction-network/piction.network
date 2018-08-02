@@ -6,7 +6,7 @@ import partner_list from "../../locale/partners/en.json";
 const Partner = ({name, logo, href}) => (
   <div className="partner">
     <a href={href} target="_blank">
-      <img className="partner__logo" src={logo} />
+      <img className="partner__logo" src={logo} alt={name} />
       <h5 className="partner__name">{name}</h5>
     </a>
     <style jsx>{`

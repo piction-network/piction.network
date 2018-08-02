@@ -34,7 +34,7 @@ const Number = ({prefix, number, label, children}) => (
 const Investor = ({name, ci, href, children}) => (
   <div className="investor">
     <a href={href}>
-      <img src={ci} />
+      <img src={ci} alt={name} />
     </a>
     <p>{children}</p>
     <style jsx>{`
@@ -66,7 +66,7 @@ export default () => (
   <section id="battle-entertainment">
     <SectionHeading>Led by Battle Entertainment</SectionHeading>
     <div className="battleentertainment">
-      <img src="static/battleent.svg" />
+      <img src="static/battleent.svg" alt="Battle Entertainment" />
       <p className="battleentertainment__description">
         Piction Network is led by <a href="https://www.battleent.com">Battle Entertainment</a> - a leading digital contents production and distribution platform from Korea and China with the experience, industry insights and trust from leading institutions.
       </p>
@@ -101,7 +101,7 @@ export default () => (
           <Number prefix="Over" number="18,000,000+" label="users on our platform" />
         </Col>
         <Col lg={3} md={12}>
-          <Number prefix="Over" number="370,000,000+" label="views which distribute to China" />
+          <Number prefix="Over" number="37,000,000+" label="viewers which distribute to China" />
         </Col>
         <Col lg={3} md={12}>
           <Number prefix="Raised Over" number="9,000,000+ USD" label="from Seed funding, Series A and Series B equity funding from leading institutions that trust us:" />

@@ -4,7 +4,7 @@ import SectionHeading from "../SectionHeading";
 
 const Member = ({member}) => (
   <div className="member">
-    <img className="member__photo" src={member.photo} />
+    <img className="member__photo" src={member.photo} alt={member.name} />
     <h6 className="member__name">{member.name}</h6>
     <small className="member__title">{member.title}</small>
     <p className="member__career" dangerouslySetInnerHTML={member.career}/>
