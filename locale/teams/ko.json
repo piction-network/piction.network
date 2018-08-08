@@ -56,7 +56,7 @@
     },
     {
       "name": "Seungyun Bae",
-      "title": "Chief Operating Officer",
+      "title": "Head of Biz Support",
       "photo": "/static/members/sybae.jpg",
       "career": {
         "__html": "English Teacher, Gwangju Girls High School<br>Chosun Univ. English Education"
@@ -210,26 +210,6 @@
       },
       "links": {
         "linkedin": "https://www.linkedin.com/in/seolhee-lee-115785164/"
-      }
-    },
-    {
-      "name": "Sumin Ju",
-      "title": "Content Producer",
-      "photo": "/static/members/smju.jpg",
-      "career": {
-        "__html": "School of Manhwa Contents, ChungKang College of Cultural Industries"
-      },
-      "links": {
-      }
-    },
-    {
-      "name": "Junhong Lim",
-      "title": "Content Producer",
-      "photo": "/static/members/jhlim.jpg",
-      "career": {
-        "__html": "Published comics in BattleComics '신제별일'"
-      },
-      "links": {
       }
     },
     {
