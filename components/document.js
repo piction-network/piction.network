@@ -1,20 +1,12 @@
 import Meta from "./meta";
 import Navigation from "./nav";
 import Hero from "./hero";
-import BattleEntertainment from "./sections/battleentertainment";
 
-import Advisors from "./sections/advisors";
-import Teams from "./sections/teams";
-import Partners from "./sections/partners";
-import EcosystemPartners from "./sections/EcosystemPartners";
 import Whitepapers from "./sections/whitepapers";
-import Problems from "./sections/problems";
-import Solutions from "./sections/solutions";
-import Roadmap from "./sections/roadmap";
 
 import Footer from  "./footer";
 
-export default ({ locale }) => (
+export default ({ locale, sections }) => (
   <div>
     <Meta locale={locale} />
     <Navigation selected={locale.selected}/>
@@ -22,16 +14,16 @@ export default ({ locale }) => (
     <Hero locale={locale.hero} />
 
     <div className="peoples page">
-      <BattleEntertainment />
-      <Teams />
-      <EcosystemPartners />
-      <Advisors />
+      <sections.BattleEntertainment />
+      <sections.Teams />
+      <sections.EcosystemPartners />
+      <sections.Advisors />
     </div>
 
     <div className="page">
-      <Problems />
-      <Solutions />
-      <Roadmap />
+      <sections.Problems />
+      <sections.Solutions />
+      <sections.Roadmap />
     </div>
 
     <Whitepapers />

@@ -11,6 +11,14 @@ export default ({selected}) => (
       <li><a href="#roadmap">Roadmap</a></li>
       <li><a href="#whitepapers">Whitepapers</a></li>
     </ul>
+
+    <ul className="mobile">
+      <li className="right">
+        <Dropdown selected={selected} />
+      </li>
+    </ul>
+
+
     <style jsx>{`
     .logo img {
       height: 2.5em;
@@ -33,14 +41,25 @@ export default ({selected}) => (
       align-items: center;
       list-style: none;
     }
+    li.right {
+      margin-left: auto;
+      margin-right: 1em;
+    }
     li {
       margin-left: 1em;
       margin-right: 1em;
     }
 
     @media (max-width: 48em) {
-      nav {
+      nav ul {
         display: none;
+      }
+      nav ul.mobile {
+        display: block;
+        position: absolute;
+        width: 200px;
+        right: 0;
+        top: .5em;
       }
     }
     `}</style>

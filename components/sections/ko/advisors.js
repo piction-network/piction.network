@@ -1,6 +1,6 @@
-import locale from "../../locale/advisors/en";
-import { Row, Col } from "../flexbox";
-import SectionHeading from "../SectionHeading";
+import locale from "../../../locale/advisors/ko";
+import { Row, Col } from "../../flexbox";
+import SectionHeading from "../../SectionHeading";
 
 const Advisor = ({name, bio, comment, photo}) => (
   <div className="advisor">

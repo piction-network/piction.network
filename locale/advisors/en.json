@@ -1,0 +1,74 @@
+{
+  "advisors": [
+    {
+      "name": "David K. Lee",
+      "photo": "/static/advisors/davidlee.jpg",
+      "bio": {
+        "__html": "(Former) CEO, Nexon Japan<br>(Former) Department Manager, Softbank<br>Doctor, NYU School of Law"
+      },
+      "comment": {
+        "__html": "The Piction Network team is one that truly understands the problems in today’s monopolised digital contents industry. For too long, extractive intermediaries in the content value chain have extracted profits from artists that prevents them from earning sufficient livelihood. What we are seeing today is the stagnation of the contents industry because promising artists do not have sufficient funds to continue creating valuable content. I applaud Piction Network's vision and the team has my full support."
+      }
+    },
+    {
+      "name": "Ina Jang",
+      "photo": "/static/advisors/iajang.jpg",
+      "bio": {
+        "__html": "CEO, Smilegate Entertainment<br>CEO, Smilegate Megaport"
+      },
+      "comment": {
+        "__html": "Having followed Battle Entertainment’s growth closely since the beginning, I am confident of the team behind Piction Network. In my years working together with the team, I found them to be extremely hardworking, passionate, mission-driven and not to mention – creative. These traits fused together are ingredients for success. The time today is ripe for disruption, especially with blockchain technology. Piction Network's vision and mission is one that I have been waiting for. I am proud to be part of Piction Network's journey to success."
+      }
+    },
+    {
+      "name": "Lee-On",
+      "photo": "/static/advisors/lee-on.jpg",
+      "bio": {
+        "__html": "Chief Strategy Officer of Airbloc Protocol"
+      },
+      "comment": {
+        "__html": "The idea behind Piction Network is one that is not just novel, but noble as well. Tomorrow's artists in the digital contents industry are faced with many financial, logistical and transparency issues. Caught in the web of extractive intermediaries in the digital contents supply chain, they are left on the receiving end and at the mercy of these intermediaries. Piction Network, undergirded by blockchain technology seeks to disintermediate and return power back to deserving artists. There are no doubts on the team's capability to fulfill their objectives. I am excited to be together with them in this journey to decentralize the digital contents industry."
+      }
+    },
+    {
+      "name": "Richard Yun",
+      "photo": "/static/advisors/richard.jpg",
+      "bio": {
+        "__html": "COO, Coinplug<br>Co-founder, Metadium"
+      },
+      "comment": {
+        "__html": "Adoption and ecosystem sustainability are key factors for success for any blockchain project. This can only be achieved through longstanding industry experience, insights, and technical expertise. Piction Network, led by Battle Entertainment has deep industry connections and insights to perennial problems within the traditional digital contents industry. I am confident that with their experience and high competence, they can tailor appropriate blockchain-related solutions to turn their vision into a reality."
+      }
+    },
+    {
+      "name": "Seunghwan Yeo",
+      "photo": "/static/advisors/shyeo.jpg",
+      "bio": {
+        "__html": "Director of Technical Support, Smilegate Holdings<br>(Former) Techical Support for Blockchain Project, Smilegate"
+      },
+      "comment": {
+        "__html": "Blockchain technology is an emerging industry. For many, this is an entirely uncharted territory. Technical excellence and execution prowess is a trait highly needed to brave this new industry and emerge successful. In my years working together with the team members in Piction Network, they have proven themselves to be capable of executing complex technical tasks. I am confident that the Piction Network team will deliver on their vision and promises."
+      }
+    },
+    {
+      "name": "Shen Rong(沈荣)",
+      "photo": "/static/advisors/shenrong.jpg",
+      "bio": {
+        "__html": "Member of the committee, China Literature and Art Critics Association<br>Chairman, China Web Literature Writer's Village"
+      },
+      "comment": {
+        "__html": "In just a few years, we have seen the rise of extractive monopolies in the digital contents industry. The high fees and barriers to entry crowd out aspiring artists who wish to pursue their dreams and career in the contents industry. What we are seeing today is an unfortunate reality where even promising artists second-guess their decisions to enter the contents industry. This is not right and something that should not have even happened. Piction Network, undergirded by blockchain technology seeks to return power to these artists, and in the long term, allow the digital contents industry to once again flourish."
+      }
+    },
+    {
+      "name": "Inha Park",
+      "photo": "/static/advisors/ihpark.jpg",
+      "bio": {
+        "__html": "Member of board, The Korea Cartoonist Association<br>Professor, School of Manhwa Contents, ChungKang College of Cultural Industries"
+      },
+      "comment": {
+        "__html": "Being deep in the digital contents industry myself, it is truly saddening to see aspiring artists not being able to see their ideas and dreams come to fruition because of the extractive nature of today’s digital contents industry. The onset of blockchain technology is one that brings huge relief to me and artists because it facilitates the disintermediation of extractive monopolies in the value chain. Artists with Piction Network can now have greater freedom to innovate and bring greater value to our daily lives. When the arts industry flourishes, we as humankind flourish as well. I am deeply touched the fervour exhibited by the team behind Piction Network. The team has my utmost support."
+      }
+    }
+  ]
+}

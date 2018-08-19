@@ -1,7 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-import Globe from '../static/globe.svg';
 import Caret from '../static/caret.svg';
 
 const Menu = () => (
