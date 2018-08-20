@@ -64,7 +64,7 @@ export default () => (
   <section id="battle-entertainment">
     <SectionHeading>Led by Battle Entertainment</SectionHeading>
     <div className="battleentertainment">
-      <img src="static/battleent.svg" alt="Battle Entertainment" />
+      <img src="/static/battleent.svg" alt="Battle Entertainment" />
       <p className="battleentertainment__description">
         Piction Network is led by <a href="https://www.battleent.com">Battle Entertainment</a> - a leading digital contents production and distribution platform from Korea and China with the experience, industry insights and trust from leading institutions.
       </p>

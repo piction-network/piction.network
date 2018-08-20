@@ -64,7 +64,7 @@ export default () => (
   <section id="battle-entertainment">
     <SectionHeading>Led by Battle Entertainment</SectionHeading>
     <div className="battleentertainment">
-      <img src="static/battleent.svg" alt="Battle Entertainment" />
+      <img src="/static/battleent.svg" alt="Battle Entertainment" />
       <p className="battleentertainment__description">
         Piction Network는 <a href="https://www.battleent.com">Battle Entertainment</a>와 함께 합니다. 한국과 중국에서 지난 5년간 웹툰 비즈니스를 성공적으로 진행하고 있는 Battle Entertainment는, 복수의 유명 벤쳐캐피탈들로부터 투자유치하며 그 성과를 입증한 바 있습니다 . 기존 배틀엔터테인먼트의 사업 부문인 콘텐츠 제작, 유통, 플랫폼 사업부문은 각각 Piction Network의 초기 생태계 파트너로 함께 하게 됩니다. 
       </p>
