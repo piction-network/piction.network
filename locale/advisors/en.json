@@ -21,16 +21,6 @@
       }
     },
     {
-      "name": "Lee-On",
-      "photo": "/static/advisors/lee-on.jpg",
-      "bio": {
-        "__html": "Chief Strategy Officer of Airbloc Protocol"
-      },
-      "comment": {
-        "__html": "The idea behind Piction Network is one that is not just novel, but noble as well. Tomorrow's artists in the digital contents industry are faced with many financial, logistical and transparency issues. Caught in the web of extractive intermediaries in the digital contents supply chain, they are left on the receiving end and at the mercy of these intermediaries. Piction Network, undergirded by blockchain technology seeks to disintermediate and return power back to deserving artists. There are no doubts on the team's capability to fulfill their objectives. I am excited to be together with them in this journey to decentralize the digital contents industry."
-      }
-    },
-    {
       "name": "Richard Yun",
       "photo": "/static/advisors/richard.jpg",
       "bio": {
