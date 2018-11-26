@@ -25,10 +25,30 @@
     },
     {
       "name": "Zhaoyan Jin",
-      "title": "Chief Strategy Officer",
+      "title": "Chief Operating Officer",
       "photo": "/static/members/wendyjin.png",
       "career": {
         "__html": "CEO at Moyou Games & Mobile Factory<br>Chief of Business Development at Shanghai Posts & Telecommunications Technology<br>University of Shanghai for Science and Technology"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Grace, Shinyoung Choi",
+      "title": "Chief Strategic Officer, Attorney/Patent Attorney",
+      "photo": "/static/members/gracechoi.jpg",
+      "career": {
+        "__html": "KT&G, Sales&Marketing, Marketing Manager<br>Dancheon Law Office, Attorney, Korea(Seoul)/Vietnam(HCMC), IP Law<br>Seoul Bar, International Committee<br>Korean Bar Association, Registered IP Law Specialized Attorney<br>Korea University Blockchain Research Center, Researcher<br>Yonsei University, Psychology/Business Administration<br>Konkuk University, Law School, J.D.<br>Korea University, IP Law, Doctor Course"
+      },
+      "links": {
+      }
+    },
+    {
+      "name": "Julie, Joohee Son",
+      "title": "Chief Financial Officer, CPA",
+      "photo": "/static/members/julieson.jpg",
+      "career": {
+        "__html": "Air Innovation Korea & AeroK Airlines Finance Head<br>Coupang ECommerce Finance Sr.Manager<br>Johnson&Johnson Medical Korea Finance<br>Dow Chemical Korea Finance Controller<br>IMM Investment VC Venture Captialist<br>Ernst & Young<br>KEB Hana Bank Corporate Banking<br>Korea University"
       },
       "links": {
       }

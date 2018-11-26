@@ -17,6 +17,7 @@ export default ({locale}) => (
     <meta name="og:url" content="https://piction.network/" />
     <meta name="og:image" content="/static/og.png" />
     <meta name="og:description" content="Piction Network is creating a new peer to peer digital contents ecosystem. We are disrupting the centralized models of content distribution dominated by extractive intermediaries" />
+    <meta name="naver-site-verification" content="085e37630d5559ef4816b745a8852acf749f4254"/>
 
     <title>Piction Network</title>
 
