@@ -27,6 +27,11 @@ export default () => (
 
     <Row>
       <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="Klaytn" logo="static/ecosystem-partners/logo_klaytn.jpg" href="https://www.klaytn.com/">
+          The blockchain project Klaytn is a public blockchain platform developed by KaKao's block chain technology company 'Ground X' based on 'Blockchain Service Popularization'. The vision of the Klaytn project to lead the popularization of the blockchain by proving the value and usefulness of the blockchain technology, and the blockchain in the entire digital content such as webtoons, videos, and sound sources, the vision of Piction will be shared with each other.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Maxim Comics" logo="static/ecosystem-partners/logo_maximcomics.png" href="http://comics.maximkorea.net">
           Maxim Comics is a subsidiary of Maxim Korea - one of the leading men’s magazine in Korea that has an annual publication of 1.5 million magazines a year. Maxim Comics publishes comics for mature audiences, primarily targeting male demographic segments. 
           Maxim Comics will be one of the contents distributor in Piction’s ecosystem and help to bring on board more of their existing use base to Piction Network.
