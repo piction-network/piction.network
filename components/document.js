@@ -1,32 +1,15 @@
 import Meta from "./meta";
 import Navigation from "./nav";
-import Hero from "./hero";
 
-import Whitepapers from "./sections/whitepapers";
 
 import Footer from  "./footer";
 
-export default ({ locale, sections }) => (
+export default ({ locale, children }) => (
   <div>
     <Meta locale={locale} />
     <Navigation selected={locale.selected}/>
 
-    <Hero locale={locale.hero} />
-
-    <div className="peoples page">
-      <sections.BattleEntertainment />
-      <sections.Teams />
-      <sections.EcosystemPartners />
-      <sections.Advisors />
-    </div>
-
-    <div className="page">
-      <sections.Problems />
-      <sections.Solutions />
-      <sections.Roadmap />
-    </div>
-
-    <Whitepapers />
+    {children}
 
     <Footer contact={locale.contact} />
     <style jsx>{`

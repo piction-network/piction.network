@@ -3,12 +3,17 @@ import Dropdown from "./dropdown";
 export default ({selected}) => (
   <nav className="navigation">
     <ul>
-      <li className="logo"><img src="/static/logo.png" alt="Piction Network" /></li>
+      <li className="logo">
+        <a href="/">
+          <img src="/static/logo.png" alt="Piction Network" />
+        </a>
+      </li>
       <li><a href="#teams">Team</a></li>
       <li><a href="#partners">Partners</a></li>
       <li><a href="#advisors">Advisors</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#media">Media</a></li>
       <li><a href="#whitepapers">Whitepapers</a></li>
     </ul>
 

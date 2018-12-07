@@ -1,8 +1,16 @@
+import { SocialIcon } from 'react-social-icons';
+
 export default ({locale}) => (
   <div className="hero">
     <img src="/static/logov.png" className="hero__logo" alt="Piction Network" />
     <p className="hero__message" dangerouslySetInnerHTML={locale.message} />
     <a className="hero__telegram" href="https://t.me/pictionnetwork">Telegram Channel</a>
+
+    <ul className="hero__social">
+      <li><SocialIcon url="https://medium.com/piction" color="#707070" /></li>
+      <li><SocialIcon url="https://github.com/piction-protocol" color="#707070" /></li>
+    </ul>
+
     <style jsx>{`
       .hero {
         height: 100vh;
@@ -49,6 +57,14 @@ export default ({locale}) => (
         border-radius: 2em;
         color: var(--color-white);
         box-shadow: var(--box-shadow);
+      }
+      .hero__social {
+        display: flex;
+        list-style: none;
+        padding: 0;
+      }
+      .hero__social li+li {
+        padding-left: 1em;
       }
 
       @media (max-width: 768px) {
