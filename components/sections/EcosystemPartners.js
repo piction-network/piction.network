@@ -32,22 +32,6 @@ export default () => (
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="Maxim Comics" logo="static/ecosystem-partners/logo_maximcomics.png" href="http://comics.maximkorea.net">
-          Maxim Comics is a subsidiary of Maxim Korea - one of the leading men’s magazine in Korea that has an annual publication of 1.5 million magazines a year. Maxim Comics publishes comics for mature audiences, primarily targeting male demographic segments. 
-          Maxim Comics will be one of the contents distributor in Piction’s ecosystem and help to bring on board more of their existing use base to Piction Network.
-        </EcosystemPartner>
-      </Col>
-      <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="AIRBLOC" logo="static/ecosystem-partners/logo_airbloc.jpg" href="https://airbloc.org/">
-          Airbloc is a decentralized personal data protocol where individuals would be able to monetize their data, and advertisers would be able to buy these data to conduct targeted marketing campaigns for higher ROIs. To grow the user base in Piction Network, we will be leveraging Airbloc Protocol’s data marketplace to purchase insightful data to discover and target customer segments that are interested in digital contents.
-        </EcosystemPartner>
-      </Col>
-      <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="Flitto" logo="static/ecosystem-partners/logo_flitto.png" href="https://www.flitto.com/">
-          Flitto is a global crowdsourced translation agency with more than 8.5M global users and 3M active translators over 173 countries that can translate 23 languages. Piction Network has a full contractual partnership with Flitto. Flitto's existing base of translators can be part of Piction Network’s crowdsourced translators.
-        </EcosystemPartner>
-      </Col>
-      <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="AfreecaTV" logo="static/ecosystem-partners/logo_afreecatv.png" href="http://www.afreecatv.com/">
           AfreecaTV is a leading P2P technology-based video streaming service in Korea with a monthly active user base of 6M people. It has functions such as broadcasting, viewing, channel listing, live chatting, and discussion boards. The platform content ranges from TV broadcasts, live video game broadcasts, artist performances, and personal daily-life video blogs and shows for actresses and professional broadcast.
         </EcosystemPartner>
@@ -63,8 +47,24 @@ export default () => (
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="Maxim Comics" logo="static/ecosystem-partners/logo_maximcomics.png" href="http://comics.maximkorea.net">
+          Maxim Comics is a subsidiary of Maxim Korea - one of the leading men’s magazine in Korea that has an annual publication of 1.5 million magazines a year. Maxim Comics publishes comics for mature audiences, primarily targeting male demographic segments. 
+          Maxim Comics will be one of the contents distributor in Piction’s ecosystem and help to bring on board more of their existing use base to Piction Network.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="Flitto" logo="static/ecosystem-partners/logo_flitto.png" href="https://www.flitto.com/">
+          Flitto is a global crowdsourced translation agency with more than 8.5M global users and 3M active translators over 173 countries that can translate 23 languages. Piction Network has a full contractual partnership with Flitto. Flitto's existing base of translators can be part of Piction Network’s crowdsourced translators.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Metadium" logo="static/ecosystem-partners/logo_metadium.png" href="https://www.metadium.com/">
           Metadium is the next-generation identity protocol layer of the internet powered by blockchain with "trustless trust". It supports a decentralized digital identity and acts as the robust heart of Metadium ecosystem to provide secure, next-generation identity. Piction Network will be integrating Metadium's identity verification SDK to provide KYC services to all participants in Piction Network.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="AIRBLOC" logo="static/ecosystem-partners/logo_airbloc.jpg" href="https://airbloc.org/">
+          Airbloc is a decentralized personal data protocol where individuals would be able to monetize their data, and advertisers would be able to buy these data to conduct targeted marketing campaigns for higher ROIs. To grow the user base in Piction Network, we will be leveraging Airbloc Protocol’s data marketplace to purchase insightful data to discover and target customer segments that are interested in digital contents.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
