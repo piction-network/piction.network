@@ -27,7 +27,7 @@ export default () => (
 
     <Row>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="클레이튼" logo="static/ecosystem-partners/logo_klaytn.jpg" href="https://www.klaytn.com/">
+        <EcosystemPartner name="클레이튼" logo="/static/ecosystem-partners/logo_klaytn.jpg" href="https://www.klaytn.com/">
           클레이튼은 카카오의 블록체인 기술 계열사 그라운드X가 개발한 글로벌 퍼블릭 블록체인 플랫폼으로 블록체인의 대중화를 위해 대규모 이용자를 확보한 블록체인 서비스가 등장해 블록체인 기술의 가치와 유용성을 증명하는 것이 가장 중요하다고 판단하고 있다. 픽션 네트워크는 웹툰 웹소설 등의 창작자와 이용자를 직접 연결하는 새로운 형태의 디지털 콘텐츠 생태계로
         </EcosystemPartner>
       </Col>
@@ -67,12 +67,12 @@ export default () => (
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="투라인코드" logo="static/ecosystem-partners/logo_twolinecode.png" href="https://www.twolinecode.com/">
+        <EcosystemPartner name="투라인코드" logo="/static/ecosystem-partners/logo_twolinecode.png" href="https://www.twolinecode.com/">
           투라인코드는 아마존웹서비스(AWS), 구글(Google) 클라우드 인증 인력을 다수 보유한 국내 대표적인 클라우드 기반 빅데이터/인공지능 전문 개발사로 삼성, LG, SK, IKEA, ebay 등 글로벌 유수의 기업과 협업하며 업계를 선도하고 있는 기업이다. 투라인코드의 뛰어난 빅데이터 분석 기술을 접목하여 디지털 콘텐츠가 배포, 소비되는 채널망인 픽션 네트워크의 유저 정보를 수집 및 분석하여 개인화된 맞춤 콘텐츠를 제공할 계획이다.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
-        <EcosystemPartner name="레이어박스" logo="static/ecosystem-partners/logo_layerbox.png" href="https://layerbox.studio/">
+        <EcosystemPartner name="레이어박스" logo="/static/ecosystem-partners/logo_layerbox.png" href="https://layerbox.studio/">
           레이어박스는 애니메이션, 웹툰, 영상 제작에 고루 역량을 가진 업계 베테랑 아티스트로 구성된 콘텐츠 제작 스튜디오로, 애니메이션과 게임 프로모션 영상 등 동영상 분야에 특히 강점을 가진 스튜디오이다. 픽션은 레이어박스를 통하여 양질의 동영상 콘텐츠를 적극적으로 생태계에 공급할 계획이다.
         </EcosystemPartner>
       </Col>
