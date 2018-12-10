@@ -28,7 +28,7 @@ export default () => (
     <Row>
       <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Klaytn" logo="static/ecosystem-partners/logo_klaytn.jpg" href="https://www.klaytn.com/">
-          The blockchain project Klaytn is a public blockchain platform developed by KaKao's block chain technology company 'Ground X' based on 'Blockchain Service Popularization'. The vision of the Klaytn project to lead the popularization of the blockchain by proving the value and usefulness of the blockchain technology, and the blockchain in the entire digital content such as webtoons, videos, and sound sources, the vision of Piction will be shared with each other.
+          The blockchain project Klaytn is a public blockchain platform developed by KaKao's blockchain technology company 'Ground X' based on 'Blockchain Service Popularization'. The vision of the Klaytn project to lead the popularization of the blockchain by proving the value and usefulness of the blockchain technology, and the blockchain in the entire digital content such as webtoons, videos, and sound sources, the vision of Piction will be shared with each other.
         </EcosystemPartner>
       </Col>
       <Col lg={4} md={6} sm={12}>
@@ -65,6 +65,16 @@ export default () => (
       <Col lg={4} md={6} sm={12}>
         <EcosystemPartner name="Metadium" logo="static/ecosystem-partners/logo_metadium.png" href="https://www.metadium.com/">
           Metadium is the next-generation identity protocol layer of the internet powered by blockchain with "trustless trust". It supports a decentralized digital identity and acts as the robust heart of Metadium ecosystem to provide secure, next-generation identity. Piction Network will be integrating Metadium's identity verification SDK to provide KYC services to all participants in Piction Network.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="Twolinecode" logo="static/ecosystem-partners/logo_twolinecode.png" href="https://www.twolinecode.com/">
+          Twolinecode is a major cloud-based big data and artificial intelligence developer with a large number of cloud service providers such as Amazon Web Service (AWS) and Google. 'Two Line Code' will play a key role as a data analyst for the Piction ecosystem.
+        </EcosystemPartner>
+      </Col>
+      <Col lg={4} md={6} sm={12}>
+        <EcosystemPartner name="Layerbox" logo="static/ecosystem-partners/logo_layerbox.png" href="https://layerbox.studio/">
+          Layerbox studio is top tier studio in Korea which have multple talented artists, specialized in game promotion video clips, animations, character live(Virtual Youtuber)
         </EcosystemPartner>
       </Col>
     </Row>
