@@ -14,7 +14,7 @@ export default () => (
           <img src="/static/img-whitepaper.png" />
           <h3>Whitepaper</h3>
           <ul>
-            <li><a className="btn" href="/static/docs/whitepaper_181220.pdf" target="_blank">English</a></li>
+            <li><a className="btn" href="/static/docs/whitepaper_181221.pdf" target="_blank">English</a></li>
           </ul>
         </div>
       </Col>
