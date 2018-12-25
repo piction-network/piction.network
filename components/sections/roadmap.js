@@ -124,23 +124,76 @@ export default () => (
     <SectionHeading>Roadmap</SectionHeading>
     <ul>
       <li>
-        <Milestone time="2018 Q3" title="Test net release" side="left">
-          The public test net of the Piction ecosystem will be launched. The consistency of basic transactions, reliability of supporter smart contracts, and prevention of attacks will be tested and verified to evaluate the credibility of the ecosystem
+        <Milestone time="2018 Q4" title="POC(Proof of Concept) test release" side="left">
+          <ul>
+            <li>The POC of Piction Network launched. Core layer of Piction Network, including transactions, reliability of supporter smart contracts, and prevention of attacks will be tested and verified to evaluate the credibility of the ecosystem.</li>
+            <li>The simplest form of the marketplace, where direct content transactions are available, will also be tested.</li>
+          </ul>
         </Milestone>
       </li>
       <li>
-        <Milestone time="2018 Q4" title="Beta service release + seed content securement" side="right">
-          The simplest form of marketplace version where direct content transactions are available will be released. We will secure content that can be seeds of the ecosystem and conduct trial sales of the content.
+        <Milestone time="2019 Q1" title="v0.1 alpha version release" side="right">
+          <ul>
+            <li>We will secure content that will be the seeds of the ecosystem and conduct trial sales of the content.</li>
+            <li>
+              Supporter and influencer smart contracts will be released. We will facilitate support content based on the seed content.
+            </li>
+            <li>
+              Piction Network will proceed with ICO and conduct listing on the exchange. The listing will be conducted in the several renowned Korean and overseas exchange markets.
+            </li>
+            <li>
+              Secure seed users through airdrop activities. Planning to enter into a partnership with global major game companies.
+            </li>
+          </ul>
         </Milestone>
       </li>
       <li>
-        <Milestone time="2019 Q1" title="v0.5" side="left">
-          Supporter and influencer smart contracts will be released. We will facilitate direct investment in content based on the seed content.
+        <Milestone time="2019 Q2" title="beta v0.5 version release" side="left">
+          <li>
+            We intend to expand our ecosystem partnership, which has own unique market scope in each area and a large number of users. We intend to aggressively engage a large number of users who will participate in creators, funding, marketing, and translation in order to ensure that Piction Network operates successfully and successfully.
+          </li>
+          <li>
+            Geographically, Piction Network begins from Korea and China. Also, based on content category, it starts in the field of webtoon /web novel.
+          </li>
+          <li>
+            Piction Network beta version will be released on mainnet.
+          </li>
+          <li>
+            Base protocol will be determined, and SDK and API also will be announced.
+          </li>
         </Milestone>
       </li>
       <li>
-        <Milestone time="2019 Q2" title="v1.0" side="right">
-          We will launch the full version that enables the entire content creation process, from content registration and supporter recruitment to sales.
+        <Milestone time="2019 Q3/Q4" title="v1.0 version release" side="right">
+          <li>
+            Piction Network will launch the full version that enables the entire content creation process, from content registration and supporter recruitment to sales.
+          </li>
+          <li>
+            We plan to concentrate production of secondary creative based on game IP. It is also proven through the experience and history of Battle Comics, which has accumulated 18 million users in Korea.
+          </li>
+          <li>
+            We aim to expand into other regions such as Japan, Southeast Asia.
+          </li>
+        </Milestone>
+      </li>
+      <li>
+        <Milestone time="2020" side="left">
+          <li>
+            Ecosystem Expansion Phase, we plan to expand to the digital content market such as short clip movies. Video is the largest market for the type of content that Piction Network is planning, where fairly advanced plans are developed every day.
+          </li>
+          <li>
+            Physical region expansion will be focused on the United States and the EU.
+          </li>
+        </Milestone>
+      </li>
+      <li>
+        <Milestone time="2021" side="right">
+          <li>
+            We target expanding to the music market, which is the most popular and beloved content.
+          </li>
+          <li>
+            Physical regional expansion will be focus on other underdeveloped areas such as Latin America and Africa. After 2021, the world becomes the service area of Piction Network.
+          </li>
         </Milestone>
       </li>
     </ul>

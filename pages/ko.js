@@ -8,7 +8,7 @@ import Advisors from "../components/sections/ko/advisors";
 import EcosystemPartners from "../components/sections/ko/EcosystemPartners";
 import Problems from "../components/sections/ko/problems";
 import Solutions from "../components/sections/ko/solutions";
-import Roadmap from "../components/sections/ko/roadmap";
+import Roadmap from "../components/sections/roadmap";
 import Whitepapers from "../components/sections/whitepapers";
 import Media from "../components/sections/media";
 
