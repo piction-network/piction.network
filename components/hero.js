@@ -4,7 +4,9 @@ export default ({locale}) => (
   <div className="hero">
     <img src="/static/logov.png" className="hero__logo" alt="Piction Network" />
     <p className="hero__message" dangerouslySetInnerHTML={locale.message} />
+
     <a className="hero__telegram" href="https://t.me/pictionnetwork">Telegram Channel</a>
+    <a className="hero__kakao" href="https://open.kakao.com/o/gyVQbDM">Kakao Talk</a>
 
     <ul className="hero__social">
       <li><SocialIcon url="https://medium.com/piction" color="#707070" /></li>
@@ -57,6 +59,15 @@ export default ({locale}) => (
         border-radius: 2em;
         color: var(--color-white);
         box-shadow: var(--box-shadow);
+        margin: 0.2em;
+      }
+      .hero__kakao {
+        background-color: var(--color-secondary);
+        padding: 1em 2em;
+        border-radius: 2em;
+        color: var(--color-white);
+        box-shadow: var(--box-shadow);
+        margin: 0.2em;
       }
       .hero__social {
         display: flex;
